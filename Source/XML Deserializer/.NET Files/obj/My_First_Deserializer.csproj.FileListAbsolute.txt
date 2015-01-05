@@ -1,0 +1,6 @@
+C:\Users\user\Desktop\Sharing\XML Deserializer\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\user\Desktop\Sharing\XML Deserializer\bin\Debug\Modbus_CD_XML.dll.config
+C:\Users\user\Desktop\Sharing\XML Deserializer\bin\Debug\Modbus_CD_XML.dll
+C:\Users\user\Desktop\Sharing\XML Deserializer\bin\Debug\Modbus_CD_XML.pdb
+C:\Users\user\Desktop\Sharing\XML Deserializer\obj\Debug\Modbus_CD_XML.dll
+C:\Users\user\Desktop\Sharing\XML Deserializer\obj\Debug\Modbus_CD_XML.pdb

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!--This XML file represents the case where user doesn't have a Modbus_Items section, an error should be reported -->
+<!--Error expected -->
+<!--	Code: 5000 -->
+<!--	Message: Modbus Custom-Device, Reading XML: The element 'Modbus_Custom_Device' has incomplete content. List of possible elements expected: 'Modbus_Items'.-->
+
+
+<Modbus_Custom_Device>
+	<General_Settings>
+		<Modbus_Type>Master</Modbus_Type>
+		<Communication_Type>TCP</Communication_Type>
+		<Read_Write_Loop_Period>50</Read_Write_Loop_Period>
+		<TCP_Settings_Port>502</TCP_Settings_Port>
+		<TCP_Settings_IP_Slave_Address>192.168.2.1</TCP_Settings_IP_Slave_Address>
+		<TCP_Settings_IP_Timeout>100</TCP_Settings_IP_Timeout>
+		<Serial_Settings_Resource_Name>COM1</Serial_Settings_Resource_Name>
+		<Serial_Settings_Unit_ID>1</Serial_Settings_Unit_ID>
+		<Serial_Settings_Serial_Type>RTU</Serial_Settings_Serial_Type>
+		<Serial_Settings_Baud_Rate>9600</Serial_Settings_Baud_Rate>
+	</General_Settings>
+</Modbus_Custom_Device>

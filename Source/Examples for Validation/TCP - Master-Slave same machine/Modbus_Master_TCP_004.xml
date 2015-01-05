@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!--This XML file is for a TCP Master instance -->
+
+<Modbus_Custom_Device>
+	<General_Settings>
+		<Modbus_Type>Master</Modbus_Type>
+		<Communication_Type>TCP</Communication_Type>
+		<Read_Write_Loop_Period>25</Read_Write_Loop_Period>
+		<TCP_Settings_Port>502</TCP_Settings_Port>
+		<TCP_Settings_IP_Slave_Address>192.168.2.48</TCP_Settings_IP_Slave_Address>
+		<TCP_Settings_IP_Timeout>200</TCP_Settings_IP_Timeout>
+	</General_Settings>
+	<Modbus_Items>
+			<Read_Coils>
+				<Base_Name>My_Read_Coils_A_200_5</Base_Name>
+				<Starting_Address>200</Starting_Address>
+				<Quantity>5</Quantity>
+			</Read_Coils>
+			<Read_Discrete_Inputs>
+				<Base_Name>My_Discrete_Inputs_A_30_5</Base_Name>
+				<Starting_Address>30</Starting_Address>
+				<Quantity>5</Quantity>
+			</Read_Discrete_Inputs>
+			<Read_Input_Registers>
+				<Base_Name>My_Read_Input_Registers_A_5_40</Base_Name>
+				<Starting_Address>5</Starting_Address>
+				<Quantity>5</Quantity>
+			</Read_Input_Registers>
+			<Write_Multiple_Coils>
+				<Base_Name>My_Write_Multiple_Coils_A_0_5</Base_Name>
+				<Starting_Address>0</Starting_Address>
+				<Quantity>5</Quantity>
+			</Write_Multiple_Coils>
+
+			</Modbus_Items>
+</Modbus_Custom_Device>

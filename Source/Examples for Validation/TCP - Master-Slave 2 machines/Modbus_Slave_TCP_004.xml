@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!--This XML file is for a TCP Master instance -->
+
+<Modbus_Custom_Device>
+	<General_Settings>
+		<Modbus_Type>Slave</Modbus_Type>
+		<Communication_Type>TCP</Communication_Type>
+		<Read_Write_Loop_Period>50</Read_Write_Loop_Period>
+		<TCP_Settings_Port>502</TCP_Settings_Port>
+	</General_Settings>
+	<Modbus_Items>
+			<Write_Multiple_Coils>
+				<Base_Name>My_Write_Multiple_Coils_A_0_30</Base_Name>
+				<Starting_Address>0</Starting_Address>
+				<Quantity>30</Quantity>
+			</Write_Multiple_Coils>
+			<Write_Multiple_Discrete_Inputs>
+				<Base_Name>My_Write_Multiple_Discrete_Inputs_A_30_20</Base_Name>
+				<Starting_Address>30</Starting_Address>
+				<Quantity>20</Quantity>
+			</Write_Multiple_Discrete_Inputs>
+			<Write_Multiple_Input_Registers>
+				<Base_Name>My_Write_Multiple_Input_Registers_A_50_40</Base_Name>
+				<Starting_Address>50</Starting_Address>
+				<Quantity>40</Quantity>
+			</Write_Multiple_Input_Registers>
+			<Read_Coils>
+				<Base_Name>My_Read_Coils_A_200_30</Base_Name>
+				<Starting_Address>200</Starting_Address>
+				<Quantity>30</Quantity>
+			</Read_Coils>
+	</Modbus_Items>
+</Modbus_Custom_Device>

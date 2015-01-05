@@ -1,0 +1,3290 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="System definition.xsd">
+	<MD5Checksum />
+	<Version Major="2013" Minor="0" Fix="0" Build="1" />
+	<Content>Definition</Content>
+	<Root Name="Master_Slave" TypeGUID="03D3BA22-1485-13A6-56BD17DA950CCD00">
+		<Description>This project has 1 target defined with 2 instances of Modbus Custom-Device: one "Master" instance and one "Slave" instance of Modbus Custom-Device.</Description>
+		<Properties>
+			<Property Name="Name">
+				<String>Master_Slave</String>
+			</Property>
+			<Property Name="Version">
+				<String>1.0.0.49</String>
+			</Property>
+			<Property Name="Creator">
+				<String />
+			</Property>
+			<Property Name="Creation Date">
+				<Double>3490612158.4749336</Double>
+			</Property>
+		</Properties>
+		<Errors />
+		<TargetSections Name="Targets" TypeGUID="eb379619-68d7-4d81-be90-c0bc511cdc10">
+			<Description />
+			<Properties />
+			<Errors />
+			<Target Name="Chassis with Master and Slave instances" TypeGUID="775504BB-1485-13A6-56755DBF2C326980">
+				<Description />
+				<Properties>
+					<Property Name="OS">
+						<String>Windows</String>
+					</Property>
+					<Property Name="IP Address">
+						<String>localhost</String>
+					</Property>
+					<Property Name="Control Loop Processor">
+						<I32>-2</I32>
+					</Property>
+					<Property Name="Secondary Control Loop Processor">
+						<I32>-2</I32>
+					</Property>
+					<Property Name="Stream Rate">
+						<I32>1</I32>
+					</Property>
+					<Property Name="DIO Rate">
+						<Double>100</Double>
+					</Property>
+					<Property Name="Streamed Channels">
+						<I32>512</I32>
+					</Property>
+					<Property Name="Filter DAQ Errors">
+						<Boolean>false</Boolean>
+					</Property>
+					<Property Name="Filter Watchdog Errors">
+						<Boolean>false</Boolean>
+					</Property>
+					<Property Name="Engine Rate">
+						<Double>1000</Double>
+					</Property>
+					<Property Name="TL timeout">
+						<Double>120</Double>
+					</Property>
+					<Property Name="daq timeout">
+						<U32>1000</U32>
+					</Property>
+					<Property Name="TL sleep time">
+						<U32>0</U32>
+					</Property>
+					<Property Name="HS Port">
+						<I32>2040</I32>
+					</Property>
+					<Property Name="LS Port">
+						<I32>2050</I32>
+					</Property>
+					<Property Name="HS Port Timeout">
+						<I32>1000</I32>
+					</Property>
+					<Property Name="LS Port Timeout">
+						<I32>1000</I32>
+					</Property>
+					<Property Name="Deployment Group">
+						<I32>0</I32>
+					</Property>
+					<Property Name="Control Rate">
+						<Double>1</Double>
+					</Property>
+					<Property Name="Input Configuration">
+						<U32>0</U32>
+					</Property>
+					<Property Name="ts">
+						<U32>0</U32>
+					</Property>
+					<Property Name="Warmup Time [ms]">
+						<U32>2000</U32>
+					</Property>
+					<Property Name="Data Rate">
+						<Double>15</Double>
+					</Property>
+					<Property Name="FPGAScanInterfaceMode">
+						<U16>0</U16>
+					</Property>
+					<Property Name="Timing Source Settings">
+						<U16>0</U16>
+					</Property>
+				</Properties>
+				<Errors />
+				<Section Name="Hardware" TypeGUID="775504AB-1485-13A6-560018C1F4E3EEE1">
+					<Description />
+					<Properties />
+					<Errors />
+					<Section Name="Chassis" TypeGUID="03D3BACD-1485-13A6-56E99D97B7543BAF">
+						<Description />
+						<Properties>
+							<Property Name="Master type">
+								<U32>1</U32>
+							</Property>
+						</Properties>
+						<Errors />
+						<Section Name="Timing and Sync" TypeGUID="03D3BAED-1485-13A6-56E20B50F6E06D94">
+							<Description />
+							<Properties />
+							<Errors />
+						</Section>
+						<Section Name="DAQ" TypeGUID="77550612-1485-13A6-56570AB5032158E9">
+							<Description />
+							<Properties />
+							<Errors />
+							<Section Name="Waveform Tasks" TypeGUID="1D6B8779-A957-42D1-B074-82153DB7FF44">
+								<Description />
+								<Properties />
+								<Errors />
+							</Section>
+						</Section>
+						<Section Name="FPGA" TypeGUID="03D3B659-1485-13A6-5652D8A07328ECB7">
+							<Description />
+							<Properties />
+							<Errors />
+						</Section>
+						<Section Name="NI-XNET" TypeGUID="6b693e6d-67b1-40b8-8108-4a4cc3147721">
+							<Description />
+							<Properties>
+								<Property Name="CD Status">
+									<U32>2</U32>
+								</Property>
+								<Property Name="Decimation">
+									<I32>1</I32>
+								</Property>
+								<Property Name="Driver VI Exec Mode">
+									<U32>1</U32>
+								</Property>
+							</Properties>
+							<Errors />
+							<Section Name="CAN" TypeGUID="6c5bb91f-0da7-407d-aefc-acbe49c768df">
+								<Description />
+								<Properties />
+								<Errors />
+							</Section>
+							<Section Name="FlexRay" TypeGUID="e33fae90-03f1-4f76-b2f1-6eb8fcac2676">
+								<Description />
+								<Properties />
+								<Errors />
+							</Section>
+							<Section Name="LIN" TypeGUID="c9c30728-42cb-4dc3-b054-b80e7a54e833">
+								<Description />
+								<Properties />
+								<Errors />
+							</Section>
+						</Section>
+						<Section Name="Data Sharing" TypeGUID="d56f3ac1-7b2c-422c-9d11-fd9cc7abf2a5">
+							<Description />
+							<Properties>
+								<Property Name="CD Status">
+									<U32>2</U32>
+								</Property>
+							</Properties>
+							<Errors />
+						</Section>
+					</Section>
+				</Section>
+				<Section Name="Custom Devices" TypeGUID="03D3BB79-1485-13A6-5605EB7AFD7405AC">
+					<Description />
+					<Properties />
+					<Errors />
+					<Section Name="Modbus - Slave" TypeGUID="2034df62-bfc7-4efa-9b63-5edc9e07467b">
+						<Description />
+						<Properties>
+							<Property Name="CD Status">
+								<U32>1</U32>
+							</Property>
+							<Property Name="Driver VI Exec Mode">
+								<U32>0</U32>
+							</Property>
+							<Property Name="Driver VI Path_0">
+								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Modbus\c\Modbus Engine PharlapWin.llb\Modbus RT Driver VI.vi">
+									<Version>1.0.0</Version>
+									<ForceDownload>false</ForceDownload>
+									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Modbus\Modbus Engine VxWorks.llb\Modbus RT Driver VI.vi</RTDestination>
+									<SupportedTarget>VxWorks</SupportedTarget>
+									<MD5 />
+								</DependentFile>
+							</Property>
+							<Property Name="Driver VI Path_1">
+								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Modbus\c\Modbus Engine PharlapWin.llb\Modbus RT Driver VI.vi">
+									<Version>1.0.0</Version>
+									<ForceDownload>false</ForceDownload>
+									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Modbus\Modbus Engine PharlapWin.llb\Modbus RT Driver VI.vi</RTDestination>
+									<SupportedTarget>PharLap &amp; Windows</SupportedTarget>
+									<MD5 />
+								</DependentFile>
+							</Property>
+							<Property Name="Version">
+								<String>1.0.0</String>
+							</Property>
+							<Property Name="Dependency_1">
+								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Modbus\c\data\ModbusPharLap.lvlibp">
+									<Version />
+									<ForceDownload>false</ForceDownload>
+									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Modbus\data\ModbusPharLap.lvlibp</RTDestination>
+									<SupportedTarget>PharLap &amp; Windows</SupportedTarget>
+									<MD5>0fc6e4a8973f8d0bd297483b916d6c2c</MD5>
+								</DependentFile>
+							</Property>
+							<Property Name="user.CD.Modbus Configuration File MD5">
+								<BinaryString>MTU4NDk4ZjNmOGUxODZhMDA5ZDA5NTY5MTFlODI5NWE=</BinaryString>
+							</Property>
+							<Property Name="user.CD.Modbus Configuration File Path">
+								<String>D:\NI\Sales\Canada\Sales\2014\Mon Espace\Modbus Custom-Device\Source code\Examples for Validation\TCP - Master-Slave same machine\Modbus_Slave_TCP_004.xml</String>
+							</Property>
+							<Property Name="user.CD.Modbus Configuration File Content">
+								<BinaryString>PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/Pg0KDQo8IS0tVGhpcyBYTUwgZmlsZSBpcyBmb3IgYSBUQ1AgTWFzdGVyIGluc3RhbmNlIC0tPg0KDQo8TW9kYnVzX0N1c3RvbV9EZXZpY2U+DQoJPEdlbmVyYWxfU2V0dGluZ3M+DQoJCTxNb2RidXNfVHlwZT5TbGF2ZTwvTW9kYnVzX1R5cGU+DQoJCTxDb21tdW5pY2F0aW9uX1R5cGU+VENQPC9Db21tdW5pY2F0aW9uX1R5cGU+DQoJCTxSZWFkX1dyaXRlX0xvb3BfUGVyaW9kPjI1PC9SZWFkX1dyaXRlX0xvb3BfUGVyaW9kPg0KCQk8VENQX1NldHRpbmdzX1BvcnQ+NTAyPC9UQ1BfU2V0dGluZ3NfUG9ydD4NCgk8L0dlbmVyYWxfU2V0dGluZ3M+DQoJPE1vZGJ1c19JdGVtcz4NCgkJCTxXcml0ZV9NdWx0aXBsZV9Db2lscz4NCgkJCQk8QmFzZV9OYW1lPk15X1dyaXRlX011bHRpcGxlX0NvaWxzX0FfMF8zMDwvQmFzZV9OYW1lPg0KCQkJCTxTdGFydGluZ19BZGRyZXNzPjA8L1N0YXJ0aW5nX0FkZHJlc3M+DQoJCQkJPFF1YW50aXR5PjMwPC9RdWFudGl0eT4NCgkJCTwvV3JpdGVfTXVsdGlwbGVfQ29pbHM+DQoJCQk8V3JpdGVfTXVsdGlwbGVfRGlzY3JldGVfSW5wdXRzPg0KCQkJCTxCYXNlX05hbWU+TXlfV3JpdGVfTXVsdGlwbGVfRGlzY3JldGVfSW5wdXRzX0FfMzBfMjA8L0Jhc2VfTmFtZT4NCgkJCQk8U3RhcnRpbmdfQWRkcmVzcz4zMDwvU3RhcnRpbmdfQWRkcmVzcz4NCgkJCQk8UXVhbnRpdHk+MjA8L1F1YW50aXR5Pg0KCQkJPC9Xcml0ZV9NdWx0aXBsZV9EaXNjcmV0ZV9JbnB1dHM+DQoJCQk8V3JpdGVfTXVsdGlwbGVfSW5wdXRfUmVnaXN0ZXJzPg0KCQkJCTxCYXNlX05hbWU+TXlfV3JpdGVfTXVsdGlwbGVfSW5wdXRfUmVnaXN0ZXJzX0FfNTBfNDA8L0Jhc2VfTmFtZT4NCgkJCQk8U3RhcnRpbmdfQWRkcmVzcz41MDwvU3RhcnRpbmdfQWRkcmVzcz4NCgkJCQk8UXVhbnRpdHk+NDA8L1F1YW50aXR5Pg0KCQkJPC9Xcml0ZV9NdWx0aXBsZV9JbnB1dF9SZWdpc3RlcnM+DQoJCQk8UmVhZF9Db2lscz4NCgkJCQk8QmFzZV9OYW1lPk15X1JlYWRfQ29pbHNfQV8yMDBfMzA8L0Jhc2VfTmFtZT4NCgkJCQk8U3RhcnRpbmdfQWRkcmVzcz4yMDA8L1N0YXJ0aW5nX0FkZHJlc3M+DQoJCQkJPFF1YW50aXR5PjMwPC9RdWFudGl0eT4NCgkJCTwvUmVhZF9Db2lscz4NCgk8L01vZGJ1c19JdGVtcz4NCjwvTW9kYnVzX0N1c3RvbV9EZXZpY2U+</BinaryString>
+							</Property>
+							<Property Name="user.CD.Modbus Items Channels References">
+								<Variant>
+									<Type>AAAACgAUQDD/////C2RhdGEgc3RyaW5n</Type>
+									<Data>AAAErRMAgAAAAAAEAFQA8QAAAAAAAAACF0N1c3RvbSBEZXZpY2UgQVBJLmx2bGliGkN1c3RvbSBEZXZpY2UgSXRlbSBSZWYuY3RsABlACAAOUGFyZW50IFJlZiBvdXQAABpAQAAB/////wAADUFycmF5IG9mIFJlZnMAQQDxAAAAAAAAAAITTW9kYnVzIFNoYXJlZC5sdmxpYhBDaGFubmVscyBSZWYuY3RsABRAUAABAAEHQ2x1c3RlcgAaQEAAAf////8AAg1DaGFubmVscyBSZWZzAAEAAwAAAAQAAAAeAAAAAAAAAgoAAAAAAAACCwAAAAAAAAIMAAAAAAAAAg0AAAAAAAACDgAAAAAAAAIPAAAAAAAAAhAAAAAAAAACEQAAAAAAAAISAAAAAAAAAhMAAAAAAAACFAAAAAAAAAIVAAAAAAAAAhYAAAAAAAACFwAAAAAAAAIYAAAAAAAAAhkAAAAAAAACGgAAAAAAAAIbAAAAAAAAAhwAAAAAAAACHQAAAAAAAAIeAAAAAAAAAh8AAAAAAAACIAAAAAAAAAIhAAAAAAAAAiIAAAAAAAACIwAAAAAAAAIkAAAAAAAAAiUAAAAAAAACJgAAAAAAAAInAAAAFAAAAAAAAAIoAAAAAAAAAikAAAAAAAACKgAAAAAAAAIrAAAAAAAAAiwAAAAAAAACLQAAAAAAAAIuAAAAAAAAAi8AAAAAAAACMAAAAAAAAAIxAAAAAAAAAjIAAAAAAAACMwAAAAAAAAI0AAAAAAAAAjUAAAAAAAACNgAAAAAAAAI3AAAAAAAAAjgAAAAAAAACOQAAAAAAAAI6AAAAAAAAAjsAAAAoAAAAAAAAAjwAAAAAAAACPQAAAAAAAAI+AAAAAAAAAj8AAAAAAAACQAAAAAAAAAJBAAAAAAAAAkIAAAAAAAACQwAAAAAAAAJEAAAAAAAAAkUAAAAAAAACRgAAAAAAAAJHAAAAAAAAAkgAAAAAAAACSQAAAAAAAAJKAAAAAAAAAksAAAAAAAACTAAAAAAAAAJNAAAAAAAAAk4AAAAAAAACTwAAAAAAAAJQAAAAAAAAAlEAAAAAAAACUgAAAAAAAAJTAAAAAAAAAlQAAAAAAAACVQAAAAAAAAJWAAAAAAAAAlcAAAAAAAACWAAAAAAAAAJZAAAAAAAAAloAAAAAAAACWwAAAAAAAAJcAAAAAAAAAl0AAAAAAAACXgAAAAAAAAJfAAAAAAAAAmAAAAAAAAACYQAAAAAAAAJiAAAAAAAAAmMAAAAeAAAAAAAAAmQAAAAAAAACZQAAAAAAAAJmAAAAAAAAAmcAAAAAAAACaAAAAAAAAAJpAAAAAAAAAmoAAAAAAAACawAAAAAAAAJsAAAAAAAAAm0AAAAAAAACbgAAAAAAAAJvAAAAAAAAAnAAAAAAAAACcQAAAAAAAAJyAAAAAAAAAnMAAAAAAAACdAAAAAAAAAJ1AAAAAAAAAnYAAAAAAAACdwAAAAAAAAJ4AAAAAAAAAnkAAAAAAAACegAAAAAAAAJ7AAAAAAAAAnwAAAAAAAACfQAAAAAAAAJ+AAAAAAAAAn8AAAAAAAACgAAAAAAAAAKBAAAAAA==</Data>
+								</Variant>
+							</Property>
+							<Property Name="user.CD.Modbus Items FIFO Indexes">
+								<Variant>
+									<Type>AAAACgAUQDD/////C2RhdGEgc3RyaW5n</Type>
+									<Data>AAAC9BMAgAAAAAAFABVAAwAOUGFyZW50IFJlZiBvdXQAABpAQAAB/////wAADEZJRk8gSW5kZXhlcwAAZADxAAAAAAAAAAIXQ3VzdG9tIERldmljZSBBUEkubHZsaWIeQ3VzdG9tIERldmljZSBDaGFubmVsIFR5cGUuY3RsACVAFgACBUlucHV0Bk91dHB1dAAAC0ZJRk8gQnVmZmVyAEMA8QAAAAAAAAACE01vZGJ1cyBTaGFyZWQubHZsaWIQRklGTyBJbmRleGVzLmN0bAAWQFAAAgABAAIHQ2x1c3RlcgASQEAAAf////8AAwVBcnJheQABAAQAAAAEAAAAHgAAAAAAAAABAAAAAgAAAAMAAAAEAAAABQAAAAYAAAAHAAAACAAAAAkAAAAKAAAACwAAAAwAAAANAAAADgAAAA8AAAAQAAAAEQAAABIAAAATAAAAFAAAABUAAAAWAAAAFwAAABgAAAAZAAAAGgAAABsAAAAcAAAAHQAAAAAAFAAAAB4AAAAfAAAAIAAAACEAAAAiAAAAIwAAACQAAAAlAAAAJgAAACcAAAAoAAAAKQAAACoAAAArAAAALAAAAC0AAAAuAAAALwAAADAAAAAxAAAAAAAoAAAAMgAAADMAAAA0AAAANQAAADYAAAA3AAAAOAAAADkAAAA6AAAAOwAAADwAAAA9AAAAPgAAAD8AAABAAAAAQQAAAEIAAABDAAAARAAAAEUAAABGAAAARwAAAEgAAABJAAAASgAAAEsAAABMAAAATQAAAE4AAABPAAAAUAAAAFEAAABSAAAAUwAAAFQAAABVAAAAVgAAAFcAAABYAAAAWQAAAAAAHgAAAAAAAAABAAAAAgAAAAMAAAAEAAAABQAAAAYAAAAHAAAACAAAAAkAAAAKAAAACwAAAAwAAAANAAAADgAAAA8AAAAQAAAAEQAAABIAAAATAAAAFAAAABUAAAAWAAAAFwAAABgAAAAZAAAAGgAAABsAAAAcAAAAHQABAAAAAA==</Data>
+								</Variant>
+							</Property>
+							<Property Name="user.CD.Modbus Items">
+								<Variant>
+									<Type>AAAACgAUQDD/////C2RhdGEgc3RyaW5n</Type>
+									<Data>AAAClxMAgAAAAAAGATsA8QAAAAAAAAACFlhNTF9EZXNlcmlhbGl6ZXIubHZsaWIUTW9kYnVzX0l0ZW1fVHlwZS5jdGwBB0AWAAoKUmVhZCBDb2lscxRSZWFkIERpc2NyZXRlIElucHV0cxZSZWFkIEhvbGRpbmcgUmVnaXN0ZXJzFFJlYWQgSW5wdXQgUmVnaXN0ZXJzFFdyaXRlIE11bHRpcGxlIENvaWxzIFdyaXRlIE11bHRpcGxlIEhvbGRpbmcgUmVnaXN0ZXJzEVdyaXRlIFNpbmdsZSBDb2lsHVdyaXRlIFNpbmdsZSBIb2xkaW5nIFJlZ2lzdGVyHldyaXRlIE11bHRpcGxlIERpc2NyZXRlIElucHV0cx5Xcml0ZSBNdWx0aXBsZSBJbnB1dCBSZWdpc3RlcnMAC01vZGJ1cyBUeXBlABJAMP////8JQmFzZSBOYW1lABdABgAQU3RhcnRpbmcgQWRkcmVzcwAAD0AGAAhRdWFudGl0eQAAUADxAAAAAAAAAAIWWE1MX0Rlc2VyaWFsaXplci5sdmxpYhBNb2RidXNfSXRlbXMuY3RsACBAUAAEAAAAAQACAAMMTW9kYnVzIEl0ZW1zAAASQEAAAf////8ABAVBcnJheQABAAUAAAAEAAQAAAAeTXlfV3JpdGVfTXVsdGlwbGVfQ29pbHNfQV8wXzMwAAAAHgAIAAAAKU15X1dyaXRlX011bHRpcGxlX0Rpc2NyZXRlX0lucHV0c19BXzMwXzIwAB4AFAAJAAAAKU15X1dyaXRlX011bHRpcGxlX0lucHV0X1JlZ2lzdGVyc19BXzUwXzQwADIAKAAAAAAAFk15X1JlYWRfQ29pbHNfQV8yMDBfMzAAyAAeAAAAAA==</Data>
+								</Variant>
+							</Property>
+							<Property Name="user.CD.Modbus General Settings">
+								<Variant>
+									<Type>AAAACgAUQDD/////C2RhdGEgc3RyaW5n</Type>
+									<Data>AAACARMAgAAAAAAPABlAAwASQ29tbXVuaWNhdGlvbl9UeXBlAAARQAMAC01vZGJ1c19UeXBlAB1ABAAWUmVhZF9Xcml0ZV9Mb29wX1BlcmlvZAAAF0AGABFUQ1BfU2V0dGluZ3NfUG9ydAAdQAcAF1RDUF9TZXR0aW5nc19JUF9UaW1lb3V0ACZAMP////8dVENQX1NldHRpbmdzX0lQX1NsYXZlX0FkZHJlc3MAGkBQAAMAAwAEAAUMVENQIFNldHRpbmdzAAAjQAMAHFNlcmlhbF9TZXR0aW5nc19GbG93X0NvbnRyb2wAAB9ABwAZU2VyaWFsX1NldHRpbmdzX0JhdWRfUmF0ZQAdQAMAFlNlcmlhbF9TZXR0aW5nc19QYXJpdHkAACZAMP////8dU2VyaWFsX1NldHRpbmdzX1Jlc291cmNlX05hbWUAIUADABtTZXJpYWxfU2V0dGluZ3NfU2VyaWFsX1R5cGUAHUABABdTZXJpYWxfU2V0dGluZ3NfVW5pdF9JRAAiQFAABgAHAAgACQAKAAsADA9TZXJpYWwgU2V0dGluZ3MAIkBQAAUAAAABAAIABgANEEdlbmVyYWwgU2V0dGluZ3MAAAEADgAAAAAAAAABAAAAAAAAABkB9gAAAGQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</Data>
+								</Variant>
+							</Property>
+						</Properties>
+						<Errors />
+						<Section Name="Status Channels" TypeGUID="6dec2bcb-d0f0-4879-8875-bd03842ffe6c">
+							<Description />
+							<Properties />
+							<Errors />
+							<Channel Name="General Status" TypeGUID="d30ff444-76ba-43cf-b605-e86ade14a5f0" RowDim="1" ColDim="1" Units="" BitFields="1">
+								<Description>General Status of Master/Slave Custom-Device instance.
+0: Not Available
+1: Initialized
+2: Shutdown</Description>
+								<Properties />
+								<Errors />
+								<DefaultValue>
+									<Elem>0</Elem>
+								</DefaultValue>
+							</Channel>
+							<Channel Name="Slave - Daemon Status" TypeGUID="d30ff444-76ba-43cf-b605-e86ade14a5f0" RowDim="1" ColDim="1" Units="" BitFields="1">
+								<Description>In case of Modbus Slave instance, this Channel gives the current state of the Modbus Daemon taking care of Modbus communication part:
+0: Not Started
+1: Running
+2: Error
+3: Stopped</Description>
+								<Properties />
+								<Errors />
+								<DefaultValue>
+									<Elem>0</Elem>
+								</DefaultValue>
+							</Channel>
+							<Channel Name="Slave - Last Error Code" TypeGUID="d30ff444-76ba-43cf-b605-e86ade14a5f0" RowDim="1" ColDim="1" Units="" BitFields="1">
+								<Description>In case of Modbus Slave instance, this Channel gives the last Error thrown by Modbus Daemon.</Description>
+								<Properties />
+								<Errors />
+								<DefaultValue>
+									<Elem>0</Elem>
+								</DefaultValue>
+							</Channel>
+							<Channel Name="Slave - Last Error Code System-Time" TypeGUID="d30ff444-76ba-43cf-b605-e86ade14a5f0" RowDim="1" ColDim="1" Units="" BitFields="1">
+								<Description>In case of Modbus Slave instance, this Channel gives the System-Time of last Error thrown by Modbus Daemon.</Description>
+								<Properties />
+								<Errors />
+								<DefaultValue>
+									<Elem>0</Elem>
+								</DefaultValue>
+							</Channel>
+							<Channel Name="Slave - TCP Connection Count" TypeGUID="d30ff444-76ba-43cf-b605-e86ade14a5f0" RowDim="1" ColDim="1" Units="" BitFields="1">
+								<Description>In case of TCP Modbus Slave instance, this Channel gives the TCP Connection Count.</Description>
+								<Properties />
+								<Errors />
+								<DefaultValue>
+									<Elem>0</Elem>
+								</DefaultValue>
+							</Channel>
+						</Section>
+						<Channel Name="My_Write_Multiple_Coils_A_0_30_000" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Write_Multiple_Coils_A_0_30_001" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Write_Multiple_Coils_A_0_30_002" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Write_Multiple_Coils_A_0_30_003" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Write_Multiple_Coils_A_0_30_004" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Write_Multiple_Coils_A_0_30_005" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Write_Multiple_Coils_A_0_30_006" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Write_Multiple_Coils_A_0_30_007" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Write_Multiple_Coils_A_0_30_008" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Write_Multiple_Coils_A_0_30_009" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Write_Multiple_Coils_A_0_30_010" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Write_Multiple_Coils_A_0_30_011" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Write_Multiple_Coils_A_0_30_012" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Write_Multiple_Coils_A_0_30_013" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Write_Multiple_Coils_A_0_30_014" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Write_Multiple_Coils_A_0_30_015" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Write_Multiple_Coils_A_0_30_016" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Write_Multiple_Coils_A_0_30_017" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Write_Multiple_Coils_A_0_30_018" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Write_Multiple_Coils_A_0_30_019" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Write_Multiple_Coils_A_0_30_020" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Write_Multiple_Coils_A_0_30_021" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Write_Multiple_Coils_A_0_30_022" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Write_Multiple_Coils_A_0_30_023" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Write_Multiple_Coils_A_0_30_024" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Write_Multiple_Coils_A_0_30_025" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Write_Multiple_Coils_A_0_30_026" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Write_Multiple_Coils_A_0_30_027" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Write_Multiple_Coils_A_0_30_028" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Write_Multiple_Coils_A_0_30_029" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Write_Multiple_Discrete_Inputs_A_30_20_000" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Write_Multiple_Discrete_Inputs_A_30_20_001" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Write_Multiple_Discrete_Inputs_A_30_20_002" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Write_Multiple_Discrete_Inputs_A_30_20_003" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Write_Multiple_Discrete_Inputs_A_30_20_004" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Write_Multiple_Discrete_Inputs_A_30_20_005" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Write_Multiple_Discrete_Inputs_A_30_20_006" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Write_Multiple_Discrete_Inputs_A_30_20_007" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Write_Multiple_Discrete_Inputs_A_30_20_008" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Write_Multiple_Discrete_Inputs_A_30_20_009" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Write_Multiple_Discrete_Inputs_A_30_20_010" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Write_Multiple_Discrete_Inputs_A_30_20_011" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Write_Multiple_Discrete_Inputs_A_30_20_012" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Write_Multiple_Discrete_Inputs_A_30_20_013" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Write_Multiple_Discrete_Inputs_A_30_20_014" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Write_Multiple_Discrete_Inputs_A_30_20_015" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Write_Multiple_Discrete_Inputs_A_30_20_016" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Write_Multiple_Discrete_Inputs_A_30_20_017" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Write_Multiple_Discrete_Inputs_A_30_20_018" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Write_Multiple_Discrete_Inputs_A_30_20_019" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Write_Multiple_Input_Registers_A_50_40_000" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Write_Multiple_Input_Registers_A_50_40_001" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Write_Multiple_Input_Registers_A_50_40_002" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Write_Multiple_Input_Registers_A_50_40_003" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Write_Multiple_Input_Registers_A_50_40_004" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Write_Multiple_Input_Registers_A_50_40_005" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Write_Multiple_Input_Registers_A_50_40_006" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Write_Multiple_Input_Registers_A_50_40_007" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Write_Multiple_Input_Registers_A_50_40_008" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Write_Multiple_Input_Registers_A_50_40_009" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Write_Multiple_Input_Registers_A_50_40_010" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Write_Multiple_Input_Registers_A_50_40_011" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Write_Multiple_Input_Registers_A_50_40_012" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Write_Multiple_Input_Registers_A_50_40_013" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Write_Multiple_Input_Registers_A_50_40_014" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Write_Multiple_Input_Registers_A_50_40_015" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Write_Multiple_Input_Registers_A_50_40_016" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Write_Multiple_Input_Registers_A_50_40_017" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Write_Multiple_Input_Registers_A_50_40_018" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Write_Multiple_Input_Registers_A_50_40_019" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Write_Multiple_Input_Registers_A_50_40_020" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Write_Multiple_Input_Registers_A_50_40_021" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Write_Multiple_Input_Registers_A_50_40_022" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Write_Multiple_Input_Registers_A_50_40_023" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Write_Multiple_Input_Registers_A_50_40_024" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Write_Multiple_Input_Registers_A_50_40_025" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Write_Multiple_Input_Registers_A_50_40_026" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Write_Multiple_Input_Registers_A_50_40_027" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Write_Multiple_Input_Registers_A_50_40_028" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Write_Multiple_Input_Registers_A_50_40_029" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Write_Multiple_Input_Registers_A_50_40_030" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Write_Multiple_Input_Registers_A_50_40_031" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Write_Multiple_Input_Registers_A_50_40_032" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Write_Multiple_Input_Registers_A_50_40_033" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Write_Multiple_Input_Registers_A_50_40_034" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Write_Multiple_Input_Registers_A_50_40_035" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Write_Multiple_Input_Registers_A_50_40_036" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Write_Multiple_Input_Registers_A_50_40_037" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Write_Multiple_Input_Registers_A_50_40_038" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Write_Multiple_Input_Registers_A_50_40_039" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Read_Coils_A_200_30_000" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Read_Coils_A_200_30_001" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Read_Coils_A_200_30_002" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Read_Coils_A_200_30_003" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Read_Coils_A_200_30_004" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Read_Coils_A_200_30_005" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Read_Coils_A_200_30_006" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Read_Coils_A_200_30_007" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Read_Coils_A_200_30_008" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Read_Coils_A_200_30_009" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Read_Coils_A_200_30_010" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Read_Coils_A_200_30_011" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Read_Coils_A_200_30_012" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Read_Coils_A_200_30_013" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Read_Coils_A_200_30_014" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Read_Coils_A_200_30_015" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Read_Coils_A_200_30_016" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Read_Coils_A_200_30_017" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Read_Coils_A_200_30_018" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Read_Coils_A_200_30_019" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Read_Coils_A_200_30_020" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Read_Coils_A_200_30_021" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Read_Coils_A_200_30_022" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Read_Coils_A_200_30_023" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Read_Coils_A_200_30_024" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Read_Coils_A_200_30_025" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Read_Coils_A_200_30_026" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Read_Coils_A_200_30_027" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Read_Coils_A_200_30_028" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Read_Coils_A_200_30_029" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+					</Section>
+					<Section Name="Modbus - Master" TypeGUID="2034df62-bfc7-4efa-9b63-5edc9e07467b">
+						<Description />
+						<Properties>
+							<Property Name="CD Status">
+								<U32>1</U32>
+							</Property>
+							<Property Name="Driver VI Exec Mode">
+								<U32>0</U32>
+							</Property>
+							<Property Name="Driver VI Path_0">
+								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Modbus\c\Modbus Engine PharlapWin.llb\Modbus RT Driver VI.vi">
+									<Version>1.0.0</Version>
+									<ForceDownload>false</ForceDownload>
+									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Modbus\Modbus Engine VxWorks.llb\Modbus RT Driver VI.vi</RTDestination>
+									<SupportedTarget>VxWorks</SupportedTarget>
+									<MD5 />
+								</DependentFile>
+							</Property>
+							<Property Name="Driver VI Path_1">
+								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Modbus\c\Modbus Engine PharlapWin.llb\Modbus RT Driver VI.vi">
+									<Version>1.0.0</Version>
+									<ForceDownload>false</ForceDownload>
+									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Modbus\Modbus Engine PharlapWin.llb\Modbus RT Driver VI.vi</RTDestination>
+									<SupportedTarget>PharLap &amp; Windows</SupportedTarget>
+									<MD5 />
+								</DependentFile>
+							</Property>
+							<Property Name="Version">
+								<String>1.0.0</String>
+							</Property>
+							<Property Name="Dependency_1">
+								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Modbus\c\data\ModbusPharLap.lvlibp">
+									<Version />
+									<ForceDownload>false</ForceDownload>
+									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Modbus\data\ModbusPharLap.lvlibp</RTDestination>
+									<SupportedTarget>PharLap &amp; Windows</SupportedTarget>
+									<MD5>0fc6e4a8973f8d0bd297483b916d6c2c</MD5>
+								</DependentFile>
+							</Property>
+							<Property Name="user.CD.Modbus Configuration File MD5">
+								<BinaryString>MWIzYmQ3NjBlYTBlNDRjY2IwOWJiMTg0Y2NiMTI3NDg=</BinaryString>
+							</Property>
+							<Property Name="user.CD.Modbus Configuration File Path">
+								<String>C:\Users\vruault.AMER\Desktop\Source code\Examples for Validation\TCP - Master-Slave same machine\Modbus_Master_TCP_004.xml</String>
+							</Property>
+							<Property Name="user.CD.Modbus Configuration File Content">
+								<BinaryString>PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/Pg0KDQo8IS0tVGhpcyBYTUwgZmlsZSBpcyBmb3IgYSBUQ1AgTWFzdGVyIGluc3RhbmNlIC0tPg0KDQo8TW9kYnVzX0N1c3RvbV9EZXZpY2U+DQoJPEdlbmVyYWxfU2V0dGluZ3M+DQoJCTxNb2RidXNfVHlwZT5NYXN0ZXI8L01vZGJ1c19UeXBlPg0KCQk8Q29tbXVuaWNhdGlvbl9UeXBlPlRDUDwvQ29tbXVuaWNhdGlvbl9UeXBlPg0KCQk8UmVhZF9Xcml0ZV9Mb29wX1BlcmlvZD4yNTwvUmVhZF9Xcml0ZV9Mb29wX1BlcmlvZD4NCgkJPFRDUF9TZXR0aW5nc19Qb3J0PjUwMjwvVENQX1NldHRpbmdzX1BvcnQ+DQoJCTxUQ1BfU2V0dGluZ3NfSVBfU2xhdmVfQWRkcmVzcz4xOTIuMTY4LjIuNzM8L1RDUF9TZXR0aW5nc19JUF9TbGF2ZV9BZGRyZXNzPg0KCQk8VENQX1NldHRpbmdzX0lQX1RpbWVvdXQ+MjAwPC9UQ1BfU2V0dGluZ3NfSVBfVGltZW91dD4NCgk8L0dlbmVyYWxfU2V0dGluZ3M+DQoJPE1vZGJ1c19JdGVtcz4NCgkJCTxSZWFkX0NvaWxzPg0KCQkJCTxCYXNlX05hbWU+TXlfUmVhZF9Db2lsc19BXzBfMzA8L0Jhc2VfTmFtZT4NCgkJCQk8U3RhcnRpbmdfQWRkcmVzcz4wPC9TdGFydGluZ19BZGRyZXNzPg0KCQkJCTxRdWFudGl0eT4zMDwvUXVhbnRpdHk+DQoJCQk8L1JlYWRfQ29pbHM+DQoJCQk8UmVhZF9EaXNjcmV0ZV9JbnB1dHM+DQoJCQkJPEJhc2VfTmFtZT5NeV9EaXNjcmV0ZV9JbnB1dHNfQV8zMF8yMDwvQmFzZV9OYW1lPg0KCQkJCTxTdGFydGluZ19BZGRyZXNzPjMwPC9TdGFydGluZ19BZGRyZXNzPg0KCQkJCTxRdWFudGl0eT4yMDwvUXVhbnRpdHk+DQoJCQk8L1JlYWRfRGlzY3JldGVfSW5wdXRzPg0KCQkJPFJlYWRfSW5wdXRfUmVnaXN0ZXJzPg0KCQkJCTxCYXNlX05hbWU+TXlfUmVhZF9JbnB1dF9SZWdpc3RlcnNfQV81MF80MDwvQmFzZV9OYW1lPg0KCQkJCTxTdGFydGluZ19BZGRyZXNzPjUwPC9TdGFydGluZ19BZGRyZXNzPg0KCQkJCTxRdWFudGl0eT40MDwvUXVhbnRpdHk+DQoJCQk8L1JlYWRfSW5wdXRfUmVnaXN0ZXJzPg0KCQkJPFdyaXRlX011bHRpcGxlX0NvaWxzPg0KCQkJCTxCYXNlX05hbWU+TXlfV3JpdGVfTXVsdGlwbGVfQ29pbHNfQV8yMDBfMzA8L0Jhc2VfTmFtZT4NCgkJCQk8U3RhcnRpbmdfQWRkcmVzcz4yMDA8L1N0YXJ0aW5nX0FkZHJlc3M+DQoJCQkJPFF1YW50aXR5PjMwPC9RdWFudGl0eT4NCgkJCTwvV3JpdGVfTXVsdGlwbGVfQ29pbHM+DQoNCgkJCTwvTW9kYnVzX0l0ZW1zPg0KPC9Nb2RidXNfQ3VzdG9tX0RldmljZT4=</BinaryString>
+							</Property>
+							<Property Name="user.CD.Modbus Items Channels References">
+								<Variant>
+									<Type>AAAACgAUQDD/////C2RhdGEgc3RyaW5n</Type>
+									<Data>AAAENRQAgAAAAAAEABVACAAOUGFyZW50IFJlZiBvdXQAABpAQAAB/////wAADUFycmF5IG9mIFJlZnMACABQAAEAAQAaQEAAAf////8AAg1DaGFubmVscyBSZWZzAAEAAwAAAAQAAAAeAAAAAAAAAZ0AAAAAAAABngAAAAAAAAGfAAAAAAAAAaAAAAAAAAABoQAAAAAAAAGiAAAAAAAAAaMAAAAAAAABpAAAAAAAAAGlAAAAAAAAAaYAAAAAAAABpwAAAAAAAAGoAAAAAAAAAakAAAAAAAABqgAAAAAAAAGrAAAAAAAAAawAAAAAAAABrQAAAAAAAAGuAAAAAAAAAa8AAAAAAAABsAAAAAAAAAGxAAAAAAAAAbIAAAAAAAABswAAAAAAAAG0AAAAAAAAAbUAAAAAAAABtgAAAAAAAAG3AAAAAAAAAbgAAAAAAAABuQAAAAAAAAG6AAAAFAAAAAAAAAG7AAAAAAAAAbwAAAAAAAABvQAAAAAAAAG+AAAAAAAAAb8AAAAAAAABwAAAAAAAAAHBAAAAAAAAAcIAAAAAAAABwwAAAAAAAAHEAAAAAAAAAcUAAAAAAAABxgAAAAAAAAHHAAAAAAAAAcgAAAAAAAAByQAAAAAAAAHKAAAAAAAAAcsAAAAAAAABzAAAAAAAAAHNAAAAAAAAAc4AAAAoAAAAAAAAAc8AAAAAAAAB0AAAAAAAAAHRAAAAAAAAAdIAAAAAAAAB0wAAAAAAAAHUAAAAAAAAAdUAAAAAAAAB1gAAAAAAAAHXAAAAAAAAAdgAAAAAAAAB2QAAAAAAAAHaAAAAAAAAAdsAAAAAAAAB3AAAAAAAAAHdAAAAAAAAAd4AAAAAAAAB3wAAAAAAAAHgAAAAAAAAAeEAAAAAAAAB4gAAAAAAAAHjAAAAAAAAAeQAAAAAAAAB5QAAAAAAAAHmAAAAAAAAAecAAAAAAAAB6AAAAAAAAAHpAAAAAAAAAeoAAAAAAAAB6wAAAAAAAAHsAAAAAAAAAe0AAAAAAAAB7gAAAAAAAAHvAAAAAAAAAfAAAAAAAAAB8QAAAAAAAAHyAAAAAAAAAfMAAAAAAAAB9AAAAAAAAAH1AAAAAAAAAfYAAAAeAAAAAAAAAfcAAAAAAAAB+AAAAAAAAAH5AAAAAAAAAfoAAAAAAAAB+wAAAAAAAAH8AAAAAAAAAf0AAAAAAAAB/gAAAAAAAAH/AAAAAAAAAgAAAAAAAAACAQAAAAAAAAICAAAAAAAAAgMAAAAAAAACBAAAAAAAAAIFAAAAAAAAAgYAAAAAAAACBwAAAAAAAAIIAAAAAAAAAgkAAAAAAAACCgAAAAAAAAILAAAAAAAAAgwAAAAAAAACDQAAAAAAAAIOAAAAAAAAAg8AAAAAAAACEAAAAAAAAAIRAAAAAAAAAhIAAAAAAAACEwAAAAAAAAIUAAAAAA==</Data>
+								</Variant>
+							</Property>
+							<Property Name="user.CD.Modbus Items FIFO Indexes">
+								<Variant>
+									<Type>AAAACgAUQDD/////C2RhdGEgc3RyaW5n</Type>
+									<Data>AAACgBQAgAAAAAAFABVAAwAOUGFyZW50IFJlZiBvdXQAABpAQAAB/////wAADEZJRk8gSW5kZXhlcwAAIUAWAAIFSW5wdXQGT3V0cHV0AAALRklGTyBCdWZmZXIAEkBQAAIAAQACB0NsdXN0ZXIAEkBAAAH/////AAMFQXJyYXkAAQAEAAAABAAAAB4AAAAAAAAAAQAAAAIAAAADAAAABAAAAAUAAAAGAAAABwAAAAgAAAAJAAAACgAAAAsAAAAMAAAADQAAAA4AAAAPAAAAEAAAABEAAAASAAAAEwAAABQAAAAVAAAAFgAAABcAAAAYAAAAGQAAABoAAAAbAAAAHAAAAB0AAQAAABQAAAAeAAAAHwAAACAAAAAhAAAAIgAAACMAAAAkAAAAJQAAACYAAAAnAAAAKAAAACkAAAAqAAAAKwAAACwAAAAtAAAALgAAAC8AAAAwAAAAMQABAAAAKAAAADIAAAAzAAAANAAAADUAAAA2AAAANwAAADgAAAA5AAAAOgAAADsAAAA8AAAAPQAAAD4AAAA/AAAAQAAAAEEAAABCAAAAQwAAAEQAAABFAAAARgAAAEcAAABIAAAASQAAAEoAAABLAAAATAAAAE0AAABOAAAATwAAAFAAAABRAAAAUgAAAFMAAABUAAAAVQAAAFYAAABXAAAAWAAAAFkAAQAAAB4AAAAAAAAAAQAAAAIAAAADAAAABAAAAAUAAAAGAAAABwAAAAgAAAAJAAAACgAAAAsAAAAMAAAADQAAAA4AAAAPAAAAEAAAABEAAAASAAAAEwAAABQAAAAVAAAAFgAAABcAAAAYAAAAGQAAABoAAAAbAAAAHAAAAB0AAAAAAAA=</Data>
+								</Variant>
+							</Property>
+							<Property Name="user.CD.Modbus Items">
+								<Variant>
+									<Type>AAAACgAUQDD/////C2RhdGEgc3RyaW5n</Type>
+									<Data>AAACEhQAgAAAAAAGAQNAFgAKClJlYWQgQ29pbHMUUmVhZCBEaXNjcmV0ZSBJbnB1dHMWUmVhZCBIb2xkaW5nIFJlZ2lzdGVycxRSZWFkIElucHV0IFJlZ2lzdGVycxRXcml0ZSBNdWx0aXBsZSBDb2lscyBXcml0ZSBNdWx0aXBsZSBIb2xkaW5nIFJlZ2lzdGVycxFXcml0ZSBTaW5nbGUgQ29pbB1Xcml0ZSBTaW5nbGUgSG9sZGluZyBSZWdpc3Rlch5Xcml0ZSBNdWx0aXBsZSBEaXNjcmV0ZSBJbnB1dHMeV3JpdGUgTXVsdGlwbGUgSW5wdXQgUmVnaXN0ZXJzAAtNb2RidXMgVHlwZQASQDD/////CUJhc2UgTmFtZQAXQAYAEFN0YXJ0aW5nIEFkZHJlc3MAAA9ABgAIUXVhbnRpdHkAABxAUAAEAAAAAQACAAMMTW9kYnVzIEl0ZW1zAAASQEAAAf////8ABAVBcnJheQABAAUAAAAEAAAAAAAUTXlfUmVhZF9Db2lsc19BXzBfMzAAAAAeAAEAAAAaTXlfRGlzY3JldGVfSW5wdXRzX0FfMzBfMjAAHgAUAAMAAAAfTXlfUmVhZF9JbnB1dF9SZWdpc3RlcnNfQV81MF80MAAyACgABAAAACBNeV9Xcml0ZV9NdWx0aXBsZV9Db2lsc19BXzIwMF8zMADIAB4AAAAA</Data>
+								</Variant>
+							</Property>
+							<Property Name="user.CD.Modbus General Settings">
+								<Variant>
+									<Type>AAAACgAUQDD/////C2RhdGEgc3RyaW5n</Type>
+									<Data>AAACDRQAgAAAAAAPABlAAwASQ29tbXVuaWNhdGlvbl9UeXBlAAARQAMAC01vZGJ1c19UeXBlAB1ABAAWUmVhZF9Xcml0ZV9Mb29wX1BlcmlvZAAAF0AGABFUQ1BfU2V0dGluZ3NfUG9ydAAdQAcAF1RDUF9TZXR0aW5nc19JUF9UaW1lb3V0ACZAMP////8dVENQX1NldHRpbmdzX0lQX1NsYXZlX0FkZHJlc3MAGkBQAAMAAwAEAAUMVENQIFNldHRpbmdzAAAjQAMAHFNlcmlhbF9TZXR0aW5nc19GbG93X0NvbnRyb2wAAB9ABwAZU2VyaWFsX1NldHRpbmdzX0JhdWRfUmF0ZQAdQAMAFlNlcmlhbF9TZXR0aW5nc19QYXJpdHkAACZAMP////8dU2VyaWFsX1NldHRpbmdzX1Jlc291cmNlX05hbWUAIUADABtTZXJpYWxfU2V0dGluZ3NfU2VyaWFsX1R5cGUAHUAFABdTZXJpYWxfU2V0dGluZ3NfVW5pdF9JRAAiQFAABgAHAAgACQAKAAsADA9TZXJpYWwgU2V0dGluZ3MAIkBQAAUAAAABAAIABgANEEdlbmVyYWwgU2V0dGluZ3MAAAEADgAAAAAAAAAAAAAAAAAAABkB9gAAAMgAAAAMMTkyLjE2OC4yLjczAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</Data>
+								</Variant>
+							</Property>
+						</Properties>
+						<Errors />
+						<Section Name="Status Channels" TypeGUID="6dec2bcb-d0f0-4879-8875-bd03842ffe6c">
+							<Description />
+							<Properties />
+							<Errors />
+							<Channel Name="General Status" TypeGUID="d30ff444-76ba-43cf-b605-e86ade14a5f0" RowDim="1" ColDim="1" Units="" BitFields="1">
+								<Description>General Status of Master/Slave Custom-Device instance.
+0: Not Available
+1: Initialized
+2: Shutdown</Description>
+								<Properties />
+								<Errors />
+								<DefaultValue>
+									<Elem>0</Elem>
+								</DefaultValue>
+							</Channel>
+							<Channel Name="Slave - Daemon Status" TypeGUID="d30ff444-76ba-43cf-b605-e86ade14a5f0" RowDim="1" ColDim="1" Units="" BitFields="1">
+								<Description>In case of Modbus Slave instance, this Channel gives the current state of the Modbus Daemon taking care of Modbus communication part:
+0: Not Started
+1: Running
+2: Error
+3: Stopped</Description>
+								<Properties />
+								<Errors />
+								<DefaultValue>
+									<Elem>0</Elem>
+								</DefaultValue>
+							</Channel>
+							<Channel Name="Slave - Last Error Code" TypeGUID="d30ff444-76ba-43cf-b605-e86ade14a5f0" RowDim="1" ColDim="1" Units="" BitFields="1">
+								<Description>In case of Modbus Slave instance, this Channel gives the last Error thrown by Modbus Daemon.</Description>
+								<Properties />
+								<Errors />
+								<DefaultValue>
+									<Elem>0</Elem>
+								</DefaultValue>
+							</Channel>
+							<Channel Name="Slave - Last Error Code System-Time" TypeGUID="d30ff444-76ba-43cf-b605-e86ade14a5f0" RowDim="1" ColDim="1" Units="" BitFields="1">
+								<Description>In case of Modbus Slave instance, this Channel gives the System-Time of last Error thrown by Modbus Daemon.</Description>
+								<Properties />
+								<Errors />
+								<DefaultValue>
+									<Elem>0</Elem>
+								</DefaultValue>
+							</Channel>
+							<Channel Name="Slave - TCP Connection Count" TypeGUID="d30ff444-76ba-43cf-b605-e86ade14a5f0" RowDim="1" ColDim="1" Units="" BitFields="1">
+								<Description>In case of TCP Modbus Slave instance, this Channel gives the TCP Connection Count.</Description>
+								<Properties />
+								<Errors />
+								<DefaultValue>
+									<Elem>0</Elem>
+								</DefaultValue>
+							</Channel>
+						</Section>
+						<Channel Name="My_Read_Coils_A_0_30_000" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Read_Coils_A_0_30_001" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Read_Coils_A_0_30_002" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Read_Coils_A_0_30_003" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Read_Coils_A_0_30_004" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Read_Coils_A_0_30_005" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Read_Coils_A_0_30_006" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Read_Coils_A_0_30_007" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Read_Coils_A_0_30_008" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Read_Coils_A_0_30_009" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Read_Coils_A_0_30_010" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Read_Coils_A_0_30_011" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Read_Coils_A_0_30_012" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Read_Coils_A_0_30_013" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Read_Coils_A_0_30_014" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Read_Coils_A_0_30_015" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Read_Coils_A_0_30_016" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Read_Coils_A_0_30_017" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Read_Coils_A_0_30_018" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Read_Coils_A_0_30_019" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Read_Coils_A_0_30_020" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Read_Coils_A_0_30_021" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Read_Coils_A_0_30_022" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Read_Coils_A_0_30_023" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Read_Coils_A_0_30_024" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Read_Coils_A_0_30_025" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Read_Coils_A_0_30_026" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Read_Coils_A_0_30_027" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Read_Coils_A_0_30_028" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Read_Coils_A_0_30_029" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Discrete_Inputs_A_30_20_000" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Discrete_Inputs_A_30_20_001" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Discrete_Inputs_A_30_20_002" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Discrete_Inputs_A_30_20_003" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Discrete_Inputs_A_30_20_004" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Discrete_Inputs_A_30_20_005" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Discrete_Inputs_A_30_20_006" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Discrete_Inputs_A_30_20_007" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Discrete_Inputs_A_30_20_008" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Discrete_Inputs_A_30_20_009" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Discrete_Inputs_A_30_20_010" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Discrete_Inputs_A_30_20_011" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Discrete_Inputs_A_30_20_012" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Discrete_Inputs_A_30_20_013" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Discrete_Inputs_A_30_20_014" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Discrete_Inputs_A_30_20_015" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Discrete_Inputs_A_30_20_016" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Discrete_Inputs_A_30_20_017" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Discrete_Inputs_A_30_20_018" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Discrete_Inputs_A_30_20_019" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Read_Input_Registers_A_50_40_000" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Read_Input_Registers_A_50_40_001" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Read_Input_Registers_A_50_40_002" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Read_Input_Registers_A_50_40_003" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Read_Input_Registers_A_50_40_004" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Read_Input_Registers_A_50_40_005" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Read_Input_Registers_A_50_40_006" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Read_Input_Registers_A_50_40_007" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Read_Input_Registers_A_50_40_008" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Read_Input_Registers_A_50_40_009" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Read_Input_Registers_A_50_40_010" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Read_Input_Registers_A_50_40_011" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Read_Input_Registers_A_50_40_012" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Read_Input_Registers_A_50_40_013" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Read_Input_Registers_A_50_40_014" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Read_Input_Registers_A_50_40_015" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Read_Input_Registers_A_50_40_016" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Read_Input_Registers_A_50_40_017" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Read_Input_Registers_A_50_40_018" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Read_Input_Registers_A_50_40_019" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Read_Input_Registers_A_50_40_020" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Read_Input_Registers_A_50_40_021" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Read_Input_Registers_A_50_40_022" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Read_Input_Registers_A_50_40_023" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Read_Input_Registers_A_50_40_024" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Read_Input_Registers_A_50_40_025" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Read_Input_Registers_A_50_40_026" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Read_Input_Registers_A_50_40_027" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Read_Input_Registers_A_50_40_028" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Read_Input_Registers_A_50_40_029" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Read_Input_Registers_A_50_40_030" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Read_Input_Registers_A_50_40_031" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Read_Input_Registers_A_50_40_032" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Read_Input_Registers_A_50_40_033" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Read_Input_Registers_A_50_40_034" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Read_Input_Registers_A_50_40_035" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Read_Input_Registers_A_50_40_036" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Read_Input_Registers_A_50_40_037" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Read_Input_Registers_A_50_40_038" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Read_Input_Registers_A_50_40_039" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="9">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Write_Multiple_Coils_A_200_30_000" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Write_Multiple_Coils_A_200_30_001" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Write_Multiple_Coils_A_200_30_002" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Write_Multiple_Coils_A_200_30_003" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Write_Multiple_Coils_A_200_30_004" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Write_Multiple_Coils_A_200_30_005" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Write_Multiple_Coils_A_200_30_006" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Write_Multiple_Coils_A_200_30_007" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Write_Multiple_Coils_A_200_30_008" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Write_Multiple_Coils_A_200_30_009" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Write_Multiple_Coils_A_200_30_010" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Write_Multiple_Coils_A_200_30_011" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Write_Multiple_Coils_A_200_30_012" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Write_Multiple_Coils_A_200_30_013" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Write_Multiple_Coils_A_200_30_014" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Write_Multiple_Coils_A_200_30_015" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Write_Multiple_Coils_A_200_30_016" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Write_Multiple_Coils_A_200_30_017" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Write_Multiple_Coils_A_200_30_018" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Write_Multiple_Coils_A_200_30_019" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Write_Multiple_Coils_A_200_30_020" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Write_Multiple_Coils_A_200_30_021" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Write_Multiple_Coils_A_200_30_022" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Write_Multiple_Coils_A_200_30_023" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Write_Multiple_Coils_A_200_30_024" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Write_Multiple_Coils_A_200_30_025" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Write_Multiple_Coils_A_200_30_026" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Write_Multiple_Coils_A_200_30_027" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Write_Multiple_Coils_A_200_30_028" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+						<Channel Name="My_Write_Multiple_Coils_A_200_30_029" TypeGUID="5f26147a-74dd-4215-ad1d-c30aa09c573d" RowDim="1" ColDim="1" Units="" BitFields="11">
+							<Description />
+							<Properties />
+							<Errors />
+							<DefaultValue>
+								<Elem>0</Elem>
+							</DefaultValue>
+						</Channel>
+					</Section>
+				</Section>
+				<Section Name="Simulation Models" TypeGUID="03D3B937-1485-13A6-5600F2871E269F9A">
+					<Description />
+					<Properties />
+					<Errors />
+					<Section Name="Models" TypeGUID="03D3B976-1485-13A6-5604255F981010CE">
+						<Description />
+						<Properties />
+						<Errors />
+					</Section>
+					<Section Name="Execution Order" TypeGUID="03D3B966-1485-13A6-569CFF8A449BF90A">
+						<Description />
+						<Properties />
+						<Errors />
+					</Section>
+				</Section>
+				<Section Name="User Channels" TypeGUID="03D3B6B7-1485-13A6-567BE1E1E0DF999A">
+					<Description />
+					<Properties />
+					<Errors />
+				</Section>
+				<Section Name="Calculated Channels" TypeGUID="03D3B714-1485-13A6-56031C5F1CCB78A9">
+					<Description />
+					<Properties />
+					<Errors />
+				</Section>
+				<Section Name="Stimulus" TypeGUID="03D3B7FF-1485-13A6-56B2328F9511AC8B">
+					<Description />
+					<Properties>
+						<Property Name="Max Steps">
+							<I32>128</I32>
+						</Property>
+						<Property Name="Max Gen Maps">
+							<I32>256</I32>
+						</Property>
+						<Property Name="Aux Buffer Size">
+							<I32>10000</I32>
+						</Property>
+						<Property Name="Analysis Buffer Size">
+							<I32>10000</I32>
+						</Property>
+						<Property Name="Analysis Result Size">
+							<I32>5000</I32>
+						</Property>
+					</Properties>
+					<Errors />
+				</Section>
+				<Section Name="Alarms" TypeGUID="03D3B782-1485-13A6-56F58B35B6CBA484">
+					<Description />
+					<Properties>
+						<Property Name="Alarm Rate">
+							<I32>1</I32>
+						</Property>
+					</Properties>
+					<Errors />
+				</Section>
+				<Section Name="Procedures" TypeGUID="03D3B7B1-1485-13A6-56649C7783203F22">
+					<Description />
+					<Properties />
+					<Errors />
+				</Section>
+				<Section Name="XNET Databases" TypeGUID="def5630b-577f-4ae9-9682-5f8ee445ee21">
+					<Description />
+					<Properties>
+						<Property Name="CD Status">
+							<U32>2</U32>
+						</Property>
+					</Properties>
+					<Errors />
+				</Section>
+				<Section Name="System Channels" TypeGUID="03D3B753-1485-13A6-56B10ED0820CF410">
+					<Description />
+					<Properties />
+					<Errors />
+					<Channel Name="Actual Loop Rate" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="Hz" BitFields="1">
+						<Description>The execution rate of the Primary Control Loop</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Command Index" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="3">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>-1</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Command Rate" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The decimation of the Data Processing Loop</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Time" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="sec" BitFields="1">
+						<Description>The relative system time of the VeriStand Engine according to the iteration count and Delta T of the Primary Control Loop</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Alarm Rate" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="DAQ Error" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="Error Code" BitFields="3">
+						<Description>The last reported error code from a DAQmx function call. The value zero indicates no error has occurred.</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Delta T" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="sec" BitFields="1">
+						<Description>The period in seconds of the Primary Control Loop</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Compiler Error" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Stack Index 1" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>-1</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Stack Index 2" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>-1</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Stack Index 3" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>-1</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Resume Flag" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Stack Index 4" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>-1</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Stack Index 5" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>-1</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Stack Index 6" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>-1</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Tripped Low Alarm" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="ID" BitFields="1">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Tripped Medium Alarm" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="ID" BitFields="1">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Tripped High Alarm" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="ID" BitFields="1">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Tripped Low Value" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="EUs" BitFields="1">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Tripped Medium Value" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="EUs" BitFields="1">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Tripped High Value" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="EUs" BitFields="1">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="RT Engine Build" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>A value representing the build number of the NI VeriStand Engine</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="HP Loop Duration" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="nsec" BitFields="1">
+						<Description>The duration of the Primary Control Loop in nanoseconds</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="LP Loop Duration" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="nsec" BitFields="1">
+						<Description>The duration of the Data Processing Loop in nanoseconds</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Command" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="Enum" BitFields="3">
+						<Description>Internally commands the RT system with the following numeric values:
+
+0: None
+1: Restart System
+2: Reset System
+3: Shut Down System
+4: Reboot System</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Streamed Channel Count" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The number of channels that the VeriStand Engine is currently streaming to the host</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Max Streamed Channels" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The maximum number of channels that the VeriStand Engine can stream to the host</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Model Count" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The number of times the models have not completed their execution in time</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Clients" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Maximum GENs" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The number of stimulus profile generators instantiated by the system</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Generator Engine State" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="Enum" BitFields="3">
+						<Description>The current state of the stimulus profile generator engine
+
+0: Idle
+1: Running
+2: Stopped
+3: Paused</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Watchdog Timer" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="nsec" BitFields="1">
+						<Description>The amount of time in nanoseconds since the Watchdog Timer Loop last executed. The Watchdog Timer Loop is set to execute at a rate of 10Hz.</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="HS TCP Overflow Count" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The number of times the streaming data gets overwritten.</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Host IP" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The 32-bit integer IP Address of the connected host. A zero value indicates no host is connected to the VeriStand Engine.</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Trace Enabled Flag" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="3">
+						<Description>Specifies whether execution tracing is currently active on the RT Target.  Set to 1 to start tracing.  Set to 0 to stop tracing and send result to host (if no host is present it is logged to disk).  Set to -1 to stop tracing and write result to disk.</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Detailed Tracing Flag" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="3">
+						<Description>Specifies whether detailed execution tracing is enabled on the RT Target.</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>1</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="VI Tracing Flag" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="3">
+						<Description>Specifies whether VI execution tracing is enabled on the RT Target.</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>1</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Trace Buffer Size" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="Bytes" BitFields="3">
+						<Description>Specifies the size in bytes of the execution trace buffer on the RT Target.</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>250000</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Thread Tracing Flag" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="3">
+						<Description>Specifies whether thread execution tracing is enabled on the RT Target.</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>1</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Absolute Time" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="sec" BitFields="1">
+						<Description>Returns the current date and time in seconds relative to 12:00 a.m., Friday, January 1, 1904, Universal Time [01-01-1904 00:00:00]. This value is coerced from a 128-bit value to double precision, which may impact resolution.</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Time - Microseconds" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="usec" BitFields="1">
+						<Description>The relative system time in microseconds of the VeriStand Engine according to the iteration count and Delta T of the Primary Control Loop</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 41" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 42" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 43" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 44" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="PC Timing - Iterations" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="PC Timing - Min Wait" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="PC Timing - Actual Wait" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Failure Count" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The failure count of current analysis settings</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Analysis State" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The state of the analysis sub-system on the RT execution host</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="TCP Data Packet Loss" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The number of times the VeriStand Engine fails to send a data packet to the host. A non-zero number can indicate data loss in logged data. The value is reset every time a Workspace connects to the VeriStand Engine.</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="WPL Overflow Count" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The number of times the waveform processing loop attempted to write to a waveform read session within the NI VeriStand engine and timed out.</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="WPL TCP Overflow Count" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The number of times the waveform processing loop attempted to write to the TCP loop (for a host waveform stream session) and timed out.</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="WPL Error Count" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The number of times the waveform processing loop encountered an error.</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="WPL Error Code" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The last error code encountered by the waveform processing loop.</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Streamed Waveform Count" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The number of waveforms that the VeriStand Engine is currently streaming to the host</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 56" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 57" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 58" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 59" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 60" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 61" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 62" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 63" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 64" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 65" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 66" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 67" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 68" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 69" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 70" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 71" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 72" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 73" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 74" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 75" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 76" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 77" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 78" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 79" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 80" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 81" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 82" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 83" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 84" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 85" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 86" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 87" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 88" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 89" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 90" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 91" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="AO1 Error" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="HP Loop Wakeup Status" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="Enum" BitFields="1">
+						<Description>The wakeup status of the Primary Control Loop.
+
+0: Normal
+1: Aborted
+2: Asynchronous wakeup
+3: Timing source error
+4: Timed loop error
+5: Timeout</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="HD Free Space" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="HP-LP Overwrite" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The number of times the Primary Control Loop timed out writing channel data to the Data Processing Loop</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="LP Data Count" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The number of times the Data Processing Loop timed out writing channel data to the Communication Send Loop</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="HP Count" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The number of times the Primary Control Loop reported being late</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="LP Count" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The number of times the Data Processing Loop reported being late</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Log Status" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The state of the logging sub-system on the RT execution host</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+				</Section>
+			</Target>
+		</TargetSections>
+		<Section Name="Aliases" TypeGUID="e11f4519-09e6-4fb0-99df-2967c4313d67">
+			<Description />
+			<Properties />
+			<Errors />
+		</Section>
+		<Section Name="Scales" TypeGUID="032c8aec-ce5b-6d40-06c5-5703bbc7ccee">
+			<Description />
+			<Properties />
+			<Errors />
+		</Section>
+		<Section Name="System Mappings" TypeGUID="5691ea13-4544-497e-9bda-cf69dc707663">
+			<Description />
+			<Properties />
+			<Errors />
+		</Section>
+		<Section Name="Data Sharing Network" TypeGUID="8288dbb9-8c87-4fda-9c66-acec90c46c03">
+			<Description />
+			<Properties>
+				<Property Name="CD Status">
+					<U32>2</U32>
+				</Property>
+				<Property Name="DSN Dynamic Data Size">
+					<I32>30</I32>
+				</Property>
+			</Properties>
+			<Errors />
+		</Section>
+		<Section Name="System Initialization" TypeGUID="773b9311-3758-47fa-842f-b1c1960dabd0">
+			<Description />
+			<Properties>
+				<Property Name="Auto Start">
+					<Boolean>false</Boolean>
+				</Property>
+			</Properties>
+			<Errors />
+		</Section>
+	</Root>
+</Document>

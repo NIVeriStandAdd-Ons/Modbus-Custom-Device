@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?><TestResults uuid="242CDB64-1EFD-4844-B504-77A9B831B533" xmlns="http://www.ieee.org/ATML/2007/TestResults" xmlns:c="http://www.ieee.org/ATML/2006/Common" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.ieee.org/ATML/2007/TestResults TestResults.xsd http://www.ieee.org/ATML/2006/Common Common.xsd">
+<Personnel>
+<SystemOperator ID="2" name="vruault"/>
+</Personnel>
+<ResultSet ID="1" endDateTime="28/05/2014 3:08:24 PM" name="My_Project.lvproj" startDateTime="28/05/2014 3:07:47 PM">
+<Outcome value="Passed"/>
+<TestGroup ID="1.1" name="My Computer" startDateTime="28/05/2014 3:07:47 PM" userDefinedType="Folder">
+<Outcome value="Passed"/>
+<TestGroup ID="1.1.1" name="XML_Deserializer.lvlib" startDateTime="28/05/2014 3:07:47 PM" userDefinedType="Folder">
+<Outcome value="Passed"/>
+<TestGroup ID="1.1.1.1" name="XML LV Tests" startDateTime="28/05/2014 3:07:47 PM" userDefinedType="Folder">
+<Outcome value="Passed"/>
+<Test ID="1.1.1.1.1" endDateTime="28/05/2014 3:07:49 PM" name="Test Reference_XML_000.xml.lvtest" startDateTime="28/05/2014 3:07:47 PM" userDefinedType="Test">
+<Outcome value="Passed"/>
+</Test>
+<Test ID="1.1.1.1.2" endDateTime="28/05/2014 3:07:53 PM" name="Test Reference_XML_001.xml.lvtest" startDateTime="28/05/2014 3:07:52 PM" userDefinedType="Test">
+<Outcome value="Passed"/>
+</Test>
+<Test ID="1.1.1.1.3" endDateTime="28/05/2014 3:07:56 PM" name="Test Reference_XML_002.xml.lvtest" startDateTime="28/05/2014 3:07:55 PM" userDefinedType="Test">
+<Outcome value="Passed"/>
+</Test>
+<Test ID="1.1.1.1.4" endDateTime="28/05/2014 3:08:00 PM" name="Test Reference_XML_003.xml.lvtest" startDateTime="28/05/2014 3:07:59 PM" userDefinedType="Test">
+<Outcome value="Passed"/>
+</Test>
+<Test ID="1.1.1.1.5" endDateTime="28/05/2014 3:08:03 PM" name="Test Reference_XML_004.xml.lvtest" startDateTime="28/05/2014 3:08:03 PM" userDefinedType="Test">
+<Outcome value="Passed"/>
+</Test>
+<Test ID="1.1.1.1.6" endDateTime="28/05/2014 3:08:07 PM" name="Test Reference_XML_005.xml.lvtest" startDateTime="28/05/2014 3:08:06 PM" userDefinedType="Test">
+<Outcome value="Passed"/>
+</Test>
+<Test ID="1.1.1.1.7" endDateTime="28/05/2014 3:08:10 PM" name="Test Reference_XML_006.xml.lvtest" startDateTime="28/05/2014 3:08:09 PM" userDefinedType="Test">
+<Outcome value="Passed"/>
+</Test>
+<Test ID="1.1.1.1.8" endDateTime="28/05/2014 3:08:14 PM" name="Test Reference_XML_007.xml.lvtest" startDateTime="28/05/2014 3:08:13 PM" userDefinedType="Test">
+<Outcome value="Passed"/>
+</Test>
+<Test ID="1.1.1.1.9" endDateTime="28/05/2014 3:08:17 PM" name="Test Reference_XML_008.xml.lvtest" startDateTime="28/05/2014 3:08:17 PM" userDefinedType="Test">
+<Outcome value="Passed"/>
+</Test>
+<Test ID="1.1.1.1.10" endDateTime="28/05/2014 3:08:21 PM" name="Test Reference_XML_009.xml.lvtest" startDateTime="28/05/2014 3:08:20 PM" userDefinedType="Test">
+<Outcome value="Passed"/>
+</Test>
+<Test ID="1.1.1.1.11" endDateTime="28/05/2014 3:08:24 PM" name="Test Reference_XML_010.xml.lvtest" startDateTime="28/05/2014 3:08:23 PM" userDefinedType="Test">
+<Outcome value="Passed"/>
+</Test>
+</TestGroup>
+</TestGroup>
+</TestGroup>
+<TestGroup ID="2" name="Project code coverage">
+<c:Extension>
+<ProjectCodeCoverage value=" 34.9%">
+</ProjectCodeCoverage>
+<testedVIOutofTotalVI value="1 / 10">
+</testedVIOutofTotalVI>
+</c:Extension>
+</TestGroup>
+<TestGroup ID="3" name="Dependent VIs">
+<Test ID="3.1" name="XML_Get_Modbus_Items.vi">
+</Test>
+<Test ID="3.2" name="XML_Get_General_Settings.vi">
+</Test>
+<Test ID="3.3" name="XML_Deserialize_XML_File.vi">
+</Test>
+<Test ID="3.4" name="XML_Get_General_Settings_Error_Checking.vi">
+</Test>
+<Test ID="3.5" name="XML_Deserialize_XML_File_Error_Handling.vi">
+</Test>
+<Test ID="3.6" name="Clear Errors.vi">
+</Test>
+</TestGroup>
+<TestGroup ID="4" name="Untested VIs">
+<Test ID="4.1" name="XML_Read_General_Settings.vi">
+</Test>
+<Test ID="4.2" name="XML_Read_General_Settings_Check_Basic_Errors.vi">
+</Test>
+<Test ID="4.3" name="XML_Read_Modbus_Items.vi">
+</Test>
+</TestGroup>
+</ResultSet>
+<TestProgram>
+<c:Definition name="LabVIEW Unit Test Framework" version="2013">
+<c:Identification designator="LabVIEW">
+<c:Version>13.0f2</c:Version>
+<c:Manufacturers>
+<c:Manufacturer name="National Instruments">
+</c:Manufacturer>
+</c:Manufacturers>
+</c:Identification>
+</c:Definition>
+</TestProgram>
+<TestStation>
+<c:Definition>
+<c:Extension>
+<SystemInformation value="User Name: vruault	Operating System: Windows 95/NT	Operating System Version: 6.1	Target CPU: Intel x86	Target IP: 192.168.2.29	LabVIEW Version: 13.0f2(en)	&#xA;">
+</SystemInformation>
+</c:Extension>
+</c:Definition>
+</TestStation>
+<UUT UutType="software">
+</UUT>
+</TestResults>

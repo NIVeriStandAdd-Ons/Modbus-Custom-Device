@@ -1,0 +1,11 @@
+********VI XML Transformation Errors*******
+
+*******************************************
+****C:/Perforce/Sales/users/DSmith/Modbus the Best Bus/Documentation/API/Create_Modbus_Instance.xml Errors**
+Referenced XML file does not exist: API_Main.lvlib:Create_Serial_Master.xml
+Referenced XML file does not exist: API_Main.lvlib:Create_Serial_Slave.xml
+Referenced XML file does not exist: API_Main.lvlib:Create_TCP_Slave.xml
+Referenced XML file does not exist: API_Main.lvlib:Create_TCP_Master.xml
+
+*******************************************
+

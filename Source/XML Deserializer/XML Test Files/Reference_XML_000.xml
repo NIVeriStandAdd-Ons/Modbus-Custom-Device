@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!--This XML file represents a typical case, couple of Modbus Item Types are present here, all General Settings tags existing are also present -->
+
+<Modbus_Custom_Device>
+	<General_Settings>
+		<Modbus_Type>Master</Modbus_Type>
+		<Communication_Type>TCP</Communication_Type>
+		<Read_Write_Loop_Period>50</Read_Write_Loop_Period>
+		<TCP_Settings_Port>502</TCP_Settings_Port>
+		<TCP_Settings_IP_Slave_Address>192.168.2.1</TCP_Settings_IP_Slave_Address>
+		<TCP_Settings_IP_Timeout>100</TCP_Settings_IP_Timeout>
+		<Serial_Settings_Resource_Name>COM1</Serial_Settings_Resource_Name>
+		<Serial_Settings_Unit_ID>1</Serial_Settings_Unit_ID>
+		<Serial_Settings_Serial_Type>RTU</Serial_Settings_Serial_Type>
+		<Serial_Settings_Baud_Rate>9600</Serial_Settings_Baud_Rate>
+	</General_Settings>
+	<Modbus_Items>
+			<Read_Coils>
+				<Base_Name>My_Read_Coils_A_</Base_Name>
+				<Starting_Address>100</Starting_Address>
+				<Quantity>20</Quantity>
+			</Read_Coils>
+			<Read_Coils>
+				<Base_Name>My_Read_Coils_B_</Base_Name>
+				<Starting_Address>500</Starting_Address>
+				<Quantity>30</Quantity>
+			</Read_Coils>
+			<Read_Discrete_Inputs>
+				<Base_Name>My_Discrete_Inputs_A_</Base_Name>
+				<Starting_Address>100</Starting_Address>
+				<Quantity>20</Quantity>
+			</Read_Discrete_Inputs>
+			<Read_Discrete_Inputs>
+				<Base_Name>My_Discrete_Inputs_B_</Base_Name>
+				<Starting_Address>500</Starting_Address>
+				<Quantity>30</Quantity>
+			</Read_Discrete_Inputs>
+			<Read_Holding_Registers>
+				<Base_Name>My_Read_Holding_Registers_A_</Base_Name>
+				<Starting_Address>5000</Starting_Address>
+				<Quantity>30</Quantity>
+			</Read_Holding_Registers>
+			<Read_Holding_Registers>
+				<Base_Name>My_Read_Holding_Registers_B_</Base_Name>
+				<Starting_Address>1500</Starting_Address>
+				<Quantity>30</Quantity>
+			</Read_Holding_Registers>
+			<Read_Holding_Registers>
+				<Base_Name>My_Read_Holding_Registers_C_</Base_Name>
+				<Starting_Address>5000</Starting_Address>
+				<Quantity>30</Quantity>
+			</Read_Holding_Registers>
+			<Read_Input_Registers>
+				<Base_Name>My_Read_Input_Registers_A_</Base_Name>
+				<Starting_Address>5000</Starting_Address>
+				<Quantity>30</Quantity>
+			</Read_Input_Registers>
+			<Read_Input_Registers>
+				<Base_Name>My_Read_Read_Input_Registers_B_</Base_Name>
+				<Starting_Address>1500</Starting_Address>
+				<Quantity>30</Quantity>
+			</Read_Input_Registers>
+			<Read_Input_Registers>
+				<Base_Name>My_Read_Input_Registers_C_</Base_Name>
+				<Starting_Address>5000</Starting_Address>
+				<Quantity>30</Quantity>
+			</Read_Input_Registers>
+	</Modbus_Items>
+</Modbus_Custom_Device>

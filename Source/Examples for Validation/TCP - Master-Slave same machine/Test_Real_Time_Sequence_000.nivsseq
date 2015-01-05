@@ -1,0 +1,655 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RealTimeSequence xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<FileFormatVersion Major="2012" Minor="0" Fix="0" Build="0" />
+	<Version Major="1" Minor="0" Fix="0" Build="45" />
+	<References>
+		<Reference>
+			<Path>&lt;VeriStand&gt;:\nivs.lib\Sequence Library\Standard\Timing\Wait.nivsseq</Path>
+			<Alias>Wait</Alias>
+		</Reference>
+	</References>
+	<Variables>
+		<ReturnType>
+			<Identifier>Pass</Identifier>
+			<DefaultValue xsi:type="BooleanValue">
+				<Value>false</Value>
+			</DefaultValue>
+		</ReturnType>
+		<Parameters>
+			<ParameterDeclaration>
+				<Description>My_Write_Multiple_Input_Registers_A_50_40_000</Description>
+				<Identifier>My_Write_Multiple_Input_Registers_A_50_40_000</Identifier>
+				<DefaultValue xsi:type="DoubleValue">
+					<Value>0</Value>
+				</DefaultValue>
+				<EvaluationMethod>ByReference</EvaluationMethod>
+				<DefaultAssignment Path="Targets/Chassis with Master and Slave instances/Custom Devices/Modbus - Slave/My_Write_Multiple_Input_Registers_A_50_40_000" />
+			</ParameterDeclaration>
+			<ParameterDeclaration>
+				<Description>My_Write_Multiple_Input_Registers_A_50_40_001</Description>
+				<Identifier>My_Write_Multiple_Input_Registers_A_50_40_001</Identifier>
+				<DefaultValue xsi:type="DoubleValue">
+					<Value>0</Value>
+				</DefaultValue>
+				<EvaluationMethod>ByReference</EvaluationMethod>
+				<DefaultAssignment Path="Targets/Chassis with Master and Slave instances/Custom Devices/Modbus - Slave/My_Write_Multiple_Input_Registers_A_50_40_001" />
+			</ParameterDeclaration>
+			<ParameterDeclaration>
+				<Description>My_Write_Multiple_Input_Registers_A_50_40_002</Description>
+				<Identifier>My_Write_Multiple_Input_Registers_A_50_40_002</Identifier>
+				<DefaultValue xsi:type="DoubleValue">
+					<Value>0</Value>
+				</DefaultValue>
+				<EvaluationMethod>ByReference</EvaluationMethod>
+				<DefaultAssignment Path="Targets/Chassis with Master and Slave instances/Custom Devices/Modbus - Slave/My_Write_Multiple_Input_Registers_A_50_40_002" />
+			</ParameterDeclaration>
+			<ParameterDeclaration>
+				<Description>My_Read_Input_Registers_A_50_40_000</Description>
+				<Identifier>My_Read_Input_Registers_A_50_40_000</Identifier>
+				<DefaultValue xsi:type="DoubleValue">
+					<Value>0</Value>
+				</DefaultValue>
+				<EvaluationMethod>ByReference</EvaluationMethod>
+				<DefaultAssignment Path="Targets/Chassis with Master and Slave instances/Custom Devices/Modbus - Master/My_Read_Input_Registers_A_50_40_000" />
+			</ParameterDeclaration>
+			<ParameterDeclaration>
+				<Description>My_Read_Input_Registers_A_50_40_001</Description>
+				<Identifier>My_Read_Input_Registers_A_50_40_001</Identifier>
+				<DefaultValue xsi:type="DoubleValue">
+					<Value>0</Value>
+				</DefaultValue>
+				<EvaluationMethod>ByReference</EvaluationMethod>
+				<DefaultAssignment Path="Targets/Chassis with Master and Slave instances/Custom Devices/Modbus - Slave/My_Write_Multiple_Input_Registers_A_50_40_001" />
+			</ParameterDeclaration>
+			<ParameterDeclaration>
+				<Description>My_Read_Input_Registers_A_50_40_002</Description>
+				<Identifier>My_Read_Input_Registers_A_50_40_002</Identifier>
+				<DefaultValue xsi:type="DoubleValue">
+					<Value>0</Value>
+				</DefaultValue>
+				<EvaluationMethod>ByReference</EvaluationMethod>
+				<DefaultAssignment Path="Targets/Chassis with Master and Slave instances/Custom Devices/Modbus - Slave/My_Write_Multiple_Input_Registers_A_50_40_002" />
+			</ParameterDeclaration>
+			<ParameterDeclaration>
+				<Description>My_Write_Multiple_Coils_A_0_30_000</Description>
+				<Identifier>My_Write_Multiple_Coils_A_0_30_000</Identifier>
+				<DefaultValue xsi:type="DoubleValue">
+					<Value>0</Value>
+				</DefaultValue>
+				<EvaluationMethod>ByReference</EvaluationMethod>
+				<DefaultAssignment Path="Targets/Chassis with Master and Slave instances/Custom Devices/Modbus - Slave/My_Write_Multiple_Coils_A_0_30_000" />
+			</ParameterDeclaration>
+			<ParameterDeclaration>
+				<Description>My_Write_Multiple_Coils_A_0_30_001</Description>
+				<Identifier>My_Write_Multiple_Coils_A_0_30_001</Identifier>
+				<DefaultValue xsi:type="DoubleValue">
+					<Value>0</Value>
+				</DefaultValue>
+				<EvaluationMethod>ByReference</EvaluationMethod>
+				<DefaultAssignment Path="Targets/Chassis with Master and Slave instances/Custom Devices/Modbus - Slave/My_Write_Multiple_Coils_A_0_30_001" />
+			</ParameterDeclaration>
+			<ParameterDeclaration>
+				<Description>My_Write_Multiple_Coils_A_0_30_002</Description>
+				<Identifier>My_Write_Multiple_Coils_A_0_30_002</Identifier>
+				<DefaultValue xsi:type="DoubleValue">
+					<Value>0</Value>
+				</DefaultValue>
+				<EvaluationMethod>ByReference</EvaluationMethod>
+				<DefaultAssignment Path="Targets/Chassis with Master and Slave instances/Custom Devices/Modbus - Slave/My_Write_Multiple_Coils_A_0_30_002" />
+			</ParameterDeclaration>
+			<ParameterDeclaration>
+				<Description>My_Read_Coils_A_0_30_000</Description>
+				<Identifier>My_Read_Coils_A_0_30_000</Identifier>
+				<DefaultValue xsi:type="DoubleValue">
+					<Value>0</Value>
+				</DefaultValue>
+				<EvaluationMethod>ByReference</EvaluationMethod>
+				<DefaultAssignment Path="Targets/Chassis with Master and Slave instances/Custom Devices/Modbus - Master/My_Read_Coils_A_0_30_000" />
+			</ParameterDeclaration>
+			<ParameterDeclaration>
+				<Description>My_Read_Coils_A_0_30_001</Description>
+				<Identifier>My_Read_Coils_A_0_30_001</Identifier>
+				<DefaultValue xsi:type="DoubleValue">
+					<Value>0</Value>
+				</DefaultValue>
+				<EvaluationMethod>ByReference</EvaluationMethod>
+				<DefaultAssignment Path="Targets/Chassis with Master and Slave instances/Custom Devices/Modbus - Master/My_Read_Coils_A_0_30_001" />
+			</ParameterDeclaration>
+			<ParameterDeclaration>
+				<Description>My_Read_Coils_A_0_30_002</Description>
+				<Identifier>My_Read_Coils_A_0_30_002</Identifier>
+				<DefaultValue xsi:type="DoubleValue">
+					<Value>0</Value>
+				</DefaultValue>
+				<EvaluationMethod>ByReference</EvaluationMethod>
+				<DefaultAssignment Path="Targets/Chassis with Master and Slave instances/Custom Devices/Modbus - Master/My_Read_Coils_A_0_30_002" />
+			</ParameterDeclaration>
+			<ParameterDeclaration>
+				<Description>My_Discrete_Inputs_A_30_20_000</Description>
+				<Identifier>My_Discrete_Inputs_A_30_20_000</Identifier>
+				<DefaultValue xsi:type="DoubleValue">
+					<Value>0</Value>
+				</DefaultValue>
+				<EvaluationMethod>ByReference</EvaluationMethod>
+				<DefaultAssignment Path="Targets/Chassis with Master and Slave instances/Custom Devices/Modbus - Master/My_Discrete_Inputs_A_30_20_000" />
+			</ParameterDeclaration>
+			<ParameterDeclaration>
+				<Description>My_Discrete_Inputs_A_30_20_001</Description>
+				<Identifier>My_Discrete_Inputs_A_30_20_001</Identifier>
+				<DefaultValue xsi:type="DoubleValue">
+					<Value>0</Value>
+				</DefaultValue>
+				<EvaluationMethod>ByReference</EvaluationMethod>
+				<DefaultAssignment Path="Targets/Chassis with Master and Slave instances/Custom Devices/Modbus - Master/My_Discrete_Inputs_A_30_20_001" />
+			</ParameterDeclaration>
+			<ParameterDeclaration>
+				<Description>My_Discrete_Inputs_A_30_20_002</Description>
+				<Identifier>My_Discrete_Inputs_A_30_20_002</Identifier>
+				<DefaultValue xsi:type="DoubleValue">
+					<Value>0</Value>
+				</DefaultValue>
+				<EvaluationMethod>ByReference</EvaluationMethod>
+				<DefaultAssignment Path="Targets/Chassis with Master and Slave instances/Custom Devices/Modbus - Master/My_Discrete_Inputs_A_30_20_002" />
+			</ParameterDeclaration>
+			<ParameterDeclaration>
+				<Description>My_Write_Multiple_Discrete_Inputs_A_30_20_000</Description>
+				<Identifier>My_Write_Multiple_Discrete_Inputs_A_30_20_000</Identifier>
+				<DefaultValue xsi:type="DoubleValue">
+					<Value>0</Value>
+				</DefaultValue>
+				<EvaluationMethod>ByReference</EvaluationMethod>
+				<DefaultAssignment Path="Targets/Chassis with Master and Slave instances/Custom Devices/Modbus - Slave/My_Write_Multiple_Discrete_Inputs_A_30_20_000" />
+			</ParameterDeclaration>
+			<ParameterDeclaration>
+				<Description>My_Write_Multiple_Discrete_Inputs_A_30_20_001</Description>
+				<Identifier>My_Write_Multiple_Discrete_Inputs_A_30_20_001</Identifier>
+				<DefaultValue xsi:type="DoubleValue">
+					<Value>0</Value>
+				</DefaultValue>
+				<EvaluationMethod>ByReference</EvaluationMethod>
+				<DefaultAssignment Path="Targets/Chassis with Master and Slave instances/Custom Devices/Modbus - Slave/My_Write_Multiple_Discrete_Inputs_A_30_20_001" />
+			</ParameterDeclaration>
+			<ParameterDeclaration>
+				<Description>My_Write_Multiple_Discrete_Inputs_A_30_20_002	</Description>
+				<Identifier>My_Write_Multiple_Discrete_Inputs_A_30_20_002</Identifier>
+				<DefaultValue xsi:type="DoubleValue">
+					<Value>0</Value>
+				</DefaultValue>
+				<EvaluationMethod>ByReference</EvaluationMethod>
+				<DefaultAssignment Path="Targets/Chassis with Master and Slave instances/Custom Devices/Modbus - Slave/My_Write_Multiple_Discrete_Inputs_A_30_20_002" />
+			</ParameterDeclaration>
+			<ParameterDeclaration>
+				<Description>My_Write_Multiple_Coils_A_200_30_000</Description>
+				<Identifier>My_Write_Multiple_Coils_A_200_30_000</Identifier>
+				<DefaultValue xsi:type="DoubleValue">
+					<Value>0</Value>
+				</DefaultValue>
+				<EvaluationMethod>ByReference</EvaluationMethod>
+				<DefaultAssignment Path="Targets/Chassis with Master and Slave instances/Custom Devices/Modbus - Master/My_Write_Multiple_Coils_A_200_30_000" />
+			</ParameterDeclaration>
+			<ParameterDeclaration>
+				<Description>My_Write_Multiple_Coils_A_200_30_002</Description>
+				<Identifier>My_Write_Multiple_Coils_A_200_30_002</Identifier>
+				<DefaultValue xsi:type="DoubleValue">
+					<Value>0</Value>
+				</DefaultValue>
+				<EvaluationMethod>ByReference</EvaluationMethod>
+				<DefaultAssignment Path="Targets/Chassis with Master and Slave instances/Custom Devices/Modbus - Master/My_Write_Multiple_Coils_A_200_30_002" />
+			</ParameterDeclaration>
+			<ParameterDeclaration>
+				<Description>My_Write_Multiple_Coils_A_200_30_001</Description>
+				<Identifier>My_Write_Multiple_Coils_A_200_30_001</Identifier>
+				<DefaultValue xsi:type="DoubleValue">
+					<Value>0</Value>
+				</DefaultValue>
+				<EvaluationMethod>ByReference</EvaluationMethod>
+				<DefaultAssignment Path="Targets/Chassis with Master and Slave instances/Custom Devices/Modbus - Master/My_Write_Multiple_Coils_A_200_30_001" />
+			</ParameterDeclaration>
+			<ParameterDeclaration>
+				<Description>My_Read_Coils_A_200_30_001</Description>
+				<Identifier>My_Read_Coils_A_200_30_001</Identifier>
+				<DefaultValue xsi:type="DoubleValue">
+					<Value>0</Value>
+				</DefaultValue>
+				<EvaluationMethod>ByReference</EvaluationMethod>
+				<DefaultAssignment Path="Targets/Chassis with Master and Slave instances/Custom Devices/Modbus - Slave/My_Read_Coils_A_200_30_001" />
+			</ParameterDeclaration>
+			<ParameterDeclaration>
+				<Description>My_Read_Coils_A_200_30_000</Description>
+				<Identifier>My_Read_Coils_A_200_30_000</Identifier>
+				<DefaultValue xsi:type="DoubleValue">
+					<Value>0</Value>
+				</DefaultValue>
+				<EvaluationMethod>ByReference</EvaluationMethod>
+				<DefaultAssignment Path="Targets/Chassis with Master and Slave instances/Custom Devices/Modbus - Slave/My_Read_Coils_A_200_30_000" />
+			</ParameterDeclaration>
+			<ParameterDeclaration>
+				<Description>My_Read_Coils_A_200_30_002</Description>
+				<Identifier>My_Read_Coils_A_200_30_002</Identifier>
+				<DefaultValue xsi:type="DoubleValue">
+					<Value>0</Value>
+				</DefaultValue>
+				<EvaluationMethod>ByReference</EvaluationMethod>
+				<DefaultAssignment Path="Targets/Chassis with Master and Slave instances/Custom Devices/Modbus - Slave/My_Read_Coils_A_200_30_002" />
+			</ParameterDeclaration>
+		</Parameters>
+		<LocalVariables>
+			<LocalDeclaration>
+				<Identifier>Tempo_Data</Identifier>
+				<DefaultValue xsi:type="DoubleValue">
+					<Value>0</Value>
+				</DefaultValue>
+			</LocalDeclaration>
+		</LocalVariables>
+	</Variables>
+	<Code>
+		<Setup>
+			<Body>
+				<Statement xsi:type="Expression">
+					<ExpressionString>Pass = true</ExpressionString>
+				</Statement>
+			</Body>
+		</Setup>
+		<Main>
+			<Body>
+				<Statement xsi:type="ForLoop">
+					<AutoYield>true</AutoYield>
+					<Body>
+						<Statement xsi:type="Block" Name="Write">
+							<Statement xsi:type="Block" Name="Master -&gt; Slave">
+								<Statement xsi:type="Block" Name="Write Multiple Coils">
+									<Statement xsi:type="Expression">
+										<ExpressionString>Tempo_Data = rand(1)</ExpressionString>
+									</Statement>
+									<Statement xsi:type="IfElse">
+										<TestExpression>
+											<ExpressionString>Tempo_Data &gt;= 0.5</ExpressionString>
+										</TestExpression>
+										<IfTrue>
+											<Statement xsi:type="Expression">
+												<ExpressionString>My_Write_Multiple_Coils_A_200_30_000 =1</ExpressionString>
+											</Statement>
+										</IfTrue>
+										<IfFalse>
+											<Statement xsi:type="Expression">
+												<ExpressionString>My_Write_Multiple_Coils_A_200_30_000=0</ExpressionString>
+											</Statement>
+										</IfFalse>
+									</Statement>
+									<Statement xsi:type="Expression">
+										<ExpressionString>Tempo_Data = rand(1)</ExpressionString>
+									</Statement>
+									<Statement xsi:type="IfElse">
+										<TestExpression>
+											<ExpressionString>Tempo_Data &gt;= 0.5</ExpressionString>
+										</TestExpression>
+										<IfTrue>
+											<Statement xsi:type="Expression">
+												<ExpressionString>My_Write_Multiple_Coils_A_200_30_001 =1</ExpressionString>
+											</Statement>
+										</IfTrue>
+										<IfFalse>
+											<Statement xsi:type="Expression">
+												<ExpressionString>My_Write_Multiple_Coils_A_200_30_001=0</ExpressionString>
+											</Statement>
+										</IfFalse>
+									</Statement>
+									<Statement xsi:type="Expression">
+										<ExpressionString>Tempo_Data = rand(1)</ExpressionString>
+									</Statement>
+									<Statement xsi:type="IfElse">
+										<TestExpression>
+											<ExpressionString>Tempo_Data &gt;= 0.5</ExpressionString>
+										</TestExpression>
+										<IfTrue>
+											<Statement xsi:type="Expression">
+												<ExpressionString>My_Write_Multiple_Coils_A_200_30_002 =1</ExpressionString>
+											</Statement>
+										</IfTrue>
+										<IfFalse>
+											<Statement xsi:type="Expression">
+												<ExpressionString>My_Write_Multiple_Coils_A_200_30_002=0</ExpressionString>
+											</Statement>
+										</IfFalse>
+									</Statement>
+								</Statement>
+							</Statement>
+							<Statement xsi:type="Block" Name="Slave -&gt; Master">
+								<Statement xsi:type="Block" Name="Write Input Registers">
+									<Statement xsi:type="Expression">
+										<ExpressionString>My_Write_Multiple_Input_Registers_A_50_40_000 = ceil(rand(65535.0))</ExpressionString>
+									</Statement>
+									<Statement xsi:type="Expression">
+										<ExpressionString>My_Write_Multiple_Input_Registers_A_50_40_001 = ceil(rand(65535.0))</ExpressionString>
+									</Statement>
+									<Statement xsi:type="Expression">
+										<ExpressionString>My_Write_Multiple_Input_Registers_A_50_40_002 = ceil(rand(65535.0))</ExpressionString>
+									</Statement>
+								</Statement>
+								<Statement xsi:type="Block" Name="Write Multiple Discrete Inputs">
+									<Statement xsi:type="Comment">
+										<Text>Slave -&gt; Master : Multiple Discrete Inputs</Text>
+									</Statement>
+									<Statement xsi:type="Expression">
+										<ExpressionString>Tempo_Data = rand(1)</ExpressionString>
+									</Statement>
+									<Statement xsi:type="IfElse">
+										<TestExpression>
+											<ExpressionString>Tempo_Data &gt;= 0.5</ExpressionString>
+										</TestExpression>
+										<IfTrue>
+											<Statement xsi:type="Expression">
+												<ExpressionString>My_Write_Multiple_Discrete_Inputs_A_30_20_000=1</ExpressionString>
+											</Statement>
+										</IfTrue>
+										<IfFalse>
+											<Statement xsi:type="Expression">
+												<ExpressionString>My_Write_Multiple_Discrete_Inputs_A_30_20_000=0</ExpressionString>
+											</Statement>
+										</IfFalse>
+									</Statement>
+									<Statement xsi:type="Expression">
+										<ExpressionString>Tempo_Data = rand(1)</ExpressionString>
+									</Statement>
+									<Statement xsi:type="IfElse">
+										<TestExpression>
+											<ExpressionString>Tempo_Data &gt;= 0.5</ExpressionString>
+										</TestExpression>
+										<IfTrue>
+											<Statement xsi:type="Expression">
+												<ExpressionString>My_Write_Multiple_Discrete_Inputs_A_30_20_001=1</ExpressionString>
+											</Statement>
+										</IfTrue>
+										<IfFalse>
+											<Statement xsi:type="Expression">
+												<ExpressionString>My_Write_Multiple_Discrete_Inputs_A_30_20_001=0</ExpressionString>
+											</Statement>
+										</IfFalse>
+									</Statement>
+									<Statement xsi:type="Expression">
+										<ExpressionString>Tempo_Data = rand(1)</ExpressionString>
+									</Statement>
+									<Statement xsi:type="IfElse">
+										<TestExpression>
+											<ExpressionString>Tempo_Data &gt;= 0.5</ExpressionString>
+										</TestExpression>
+										<IfTrue>
+											<Statement xsi:type="Expression">
+												<ExpressionString>My_Write_Multiple_Discrete_Inputs_A_30_20_002=1</ExpressionString>
+											</Statement>
+										</IfTrue>
+										<IfFalse>
+											<Statement xsi:type="Expression">
+												<ExpressionString>My_Write_Multiple_Discrete_Inputs_A_30_20_002=0</ExpressionString>
+											</Statement>
+										</IfFalse>
+									</Statement>
+								</Statement>
+								<Statement xsi:type="Block" Name="Write Multiple Coils">
+									<Statement xsi:type="IfElse">
+										<TestExpression>
+											<ExpressionString>Tempo_Data &gt;= 0.5</ExpressionString>
+										</TestExpression>
+										<IfTrue>
+											<Statement xsi:type="Expression">
+												<ExpressionString>My_Write_Multiple_Coils_A_0_30_000=1</ExpressionString>
+											</Statement>
+										</IfTrue>
+										<IfFalse>
+											<Statement xsi:type="Expression">
+												<ExpressionString>My_Write_Multiple_Coils_A_0_30_000=0</ExpressionString>
+											</Statement>
+											<Statement xsi:type="Expression">
+												<ExpressionString>Tempo_Data = rand(1)</ExpressionString>
+											</Statement>
+										</IfFalse>
+									</Statement>
+									<Statement xsi:type="IfElse">
+										<TestExpression>
+											<ExpressionString>Tempo_Data &gt;= 0.5</ExpressionString>
+										</TestExpression>
+										<IfTrue>
+											<Statement xsi:type="Expression">
+												<ExpressionString>My_Write_Multiple_Coils_A_0_30_001=1</ExpressionString>
+											</Statement>
+										</IfTrue>
+										<IfFalse>
+											<Statement xsi:type="Expression">
+												<ExpressionString>My_Write_Multiple_Coils_A_0_30_001=0</ExpressionString>
+											</Statement>
+										</IfFalse>
+									</Statement>
+									<Statement xsi:type="Expression">
+										<ExpressionString>Tempo_Data = rand(1)</ExpressionString>
+									</Statement>
+									<Statement xsi:type="IfElse">
+										<TestExpression>
+											<ExpressionString>Tempo_Data &gt;= 0.5</ExpressionString>
+										</TestExpression>
+										<IfTrue>
+											<Statement xsi:type="Expression">
+												<ExpressionString>My_Write_Multiple_Coils_A_0_30_002=1</ExpressionString>
+											</Statement>
+										</IfTrue>
+										<IfFalse>
+											<Statement xsi:type="Expression">
+												<ExpressionString>My_Write_Multiple_Coils_A_0_30_002=0</ExpressionString>
+											</Statement>
+										</IfFalse>
+									</Statement>
+									<Statement xsi:type="Expression">
+										<ExpressionString>Tempo_Data = rand(1)</ExpressionString>
+									</Statement>
+								</Statement>
+							</Statement>
+						</Statement>
+						<Statement xsi:type="Expression">
+							<ExpressionString>Wait(0.2)</ExpressionString>
+						</Statement>
+						<Statement xsi:type="Block" Name="Comparison">
+							<Statement xsi:type="Block" Name="Master">
+								<Statement xsi:type="Block" Name="Input Registers">
+									<Statement xsi:type="IfElse">
+										<TestExpression>
+											<ExpressionString>My_Read_Input_Registers_A_50_40_000==My_Write_Multiple_Input_Registers_A_50_40_000</ExpressionString>
+										</TestExpression>
+										<IfTrue>
+											<Statement xsi:type="Expression">
+												<ExpressionString>Pass=Pass</ExpressionString>
+											</Statement>
+										</IfTrue>
+										<IfFalse Name="Pass = false">
+											<Statement xsi:type="Expression">
+												<ExpressionString>Pass=false</ExpressionString>
+											</Statement>
+										</IfFalse>
+									</Statement>
+									<Statement xsi:type="IfElse">
+										<TestExpression>
+											<ExpressionString>My_Read_Input_Registers_A_50_40_001==My_Write_Multiple_Input_Registers_A_50_40_001</ExpressionString>
+										</TestExpression>
+										<IfTrue>
+											<Statement xsi:type="Expression">
+												<ExpressionString>Pass=Pass</ExpressionString>
+											</Statement>
+										</IfTrue>
+										<IfFalse Name="Pass = false">
+											<Statement xsi:type="Expression">
+												<ExpressionString>Pass=false</ExpressionString>
+											</Statement>
+										</IfFalse>
+									</Statement>
+									<Statement xsi:type="IfElse">
+										<TestExpression>
+											<ExpressionString>My_Read_Input_Registers_A_50_40_002==My_Write_Multiple_Input_Registers_A_50_40_002</ExpressionString>
+										</TestExpression>
+										<IfTrue>
+											<Statement xsi:type="Expression">
+												<ExpressionString>Pass=Pass</ExpressionString>
+											</Statement>
+										</IfTrue>
+										<IfFalse Name="Pass = false">
+											<Statement xsi:type="Expression">
+												<ExpressionString>Pass=false</ExpressionString>
+											</Statement>
+										</IfFalse>
+									</Statement>
+								</Statement>
+								<Statement xsi:type="Block" Name="Discrete Inputs">
+									<Statement xsi:type="IfElse">
+										<TestExpression>
+											<ExpressionString>My_Discrete_Inputs_A_30_20_000==My_Write_Multiple_Discrete_Inputs_A_30_20_000</ExpressionString>
+										</TestExpression>
+										<IfTrue>
+											<Statement xsi:type="Expression">
+												<ExpressionString>Pass=Pass</ExpressionString>
+											</Statement>
+										</IfTrue>
+										<IfFalse Name="Pass = false">
+											<Statement xsi:type="Expression">
+												<ExpressionString>Pass=false</ExpressionString>
+											</Statement>
+										</IfFalse>
+									</Statement>
+									<Statement xsi:type="IfElse">
+										<TestExpression>
+											<ExpressionString>My_Discrete_Inputs_A_30_20_001==My_Write_Multiple_Discrete_Inputs_A_30_20_001</ExpressionString>
+										</TestExpression>
+										<IfTrue>
+											<Statement xsi:type="Expression">
+												<ExpressionString>Pass=Pass</ExpressionString>
+											</Statement>
+										</IfTrue>
+										<IfFalse Name="Pass = false">
+											<Statement xsi:type="Expression">
+												<ExpressionString>Pass=false</ExpressionString>
+											</Statement>
+										</IfFalse>
+									</Statement>
+									<Statement xsi:type="IfElse">
+										<TestExpression>
+											<ExpressionString>My_Discrete_Inputs_A_30_20_002==My_Write_Multiple_Discrete_Inputs_A_30_20_002</ExpressionString>
+										</TestExpression>
+										<IfTrue>
+											<Statement xsi:type="Expression">
+												<ExpressionString>Pass=Pass</ExpressionString>
+											</Statement>
+										</IfTrue>
+										<IfFalse Name="Pass = false">
+											<Statement xsi:type="Expression">
+												<ExpressionString>Pass=false</ExpressionString>
+											</Statement>
+										</IfFalse>
+									</Statement>
+								</Statement>
+								<Statement xsi:type="Block" Name="Read Coils">
+									<Statement xsi:type="IfElse">
+										<TestExpression>
+											<ExpressionString>My_Read_Coils_A_0_30_000==My_Write_Multiple_Coils_A_0_30_000</ExpressionString>
+										</TestExpression>
+										<IfTrue>
+											<Statement xsi:type="Expression">
+												<ExpressionString>Pass=Pass</ExpressionString>
+											</Statement>
+										</IfTrue>
+										<IfFalse Name="Pass = false">
+											<Statement xsi:type="Expression">
+												<ExpressionString>Pass=false</ExpressionString>
+											</Statement>
+										</IfFalse>
+									</Statement>
+									<Statement xsi:type="IfElse">
+										<TestExpression>
+											<ExpressionString>My_Read_Coils_A_0_30_001==My_Write_Multiple_Coils_A_0_30_001</ExpressionString>
+										</TestExpression>
+										<IfTrue>
+											<Statement xsi:type="Expression">
+												<ExpressionString>Pass=Pass</ExpressionString>
+											</Statement>
+										</IfTrue>
+										<IfFalse Name="Pass = false">
+											<Statement xsi:type="Expression">
+												<ExpressionString>Pass=false</ExpressionString>
+											</Statement>
+										</IfFalse>
+									</Statement>
+									<Statement xsi:type="IfElse">
+										<TestExpression>
+											<ExpressionString>My_Read_Coils_A_0_30_001==My_Write_Multiple_Coils_A_0_30_001</ExpressionString>
+										</TestExpression>
+										<IfTrue>
+											<Statement xsi:type="Expression">
+												<ExpressionString>Pass=Pass</ExpressionString>
+											</Statement>
+										</IfTrue>
+										<IfFalse Name="Pass = false">
+											<Statement xsi:type="Expression">
+												<ExpressionString>Pass=false</ExpressionString>
+											</Statement>
+										</IfFalse>
+									</Statement>
+								</Statement>
+							</Statement>
+							<Statement xsi:type="Block" Name="Slave">
+								<Statement xsi:type="Block" Name="Read Coils">
+									<Statement xsi:type="IfElse">
+										<TestExpression>
+											<ExpressionString>My_Read_Coils_A_200_30_000==My_Write_Multiple_Coils_A_200_30_000</ExpressionString>
+										</TestExpression>
+										<IfTrue>
+											<Statement xsi:type="Expression">
+												<ExpressionString>Pass=Pass</ExpressionString>
+											</Statement>
+										</IfTrue>
+										<IfFalse Name="Pass = false">
+											<Statement xsi:type="Expression">
+												<ExpressionString>Pass=false</ExpressionString>
+											</Statement>
+										</IfFalse>
+									</Statement>
+									<Statement xsi:type="IfElse">
+										<TestExpression>
+											<ExpressionString>My_Read_Coils_A_200_30_001==My_Write_Multiple_Coils_A_200_30_001</ExpressionString>
+										</TestExpression>
+										<IfTrue>
+											<Statement xsi:type="Expression">
+												<ExpressionString>Pass=Pass</ExpressionString>
+											</Statement>
+										</IfTrue>
+										<IfFalse Name="Pass = false">
+											<Statement xsi:type="Expression">
+												<ExpressionString>Pass=false</ExpressionString>
+											</Statement>
+										</IfFalse>
+									</Statement>
+									<Statement xsi:type="IfElse">
+										<TestExpression>
+											<ExpressionString>My_Read_Coils_A_200_30_002==My_Write_Multiple_Coils_A_200_30_002</ExpressionString>
+										</TestExpression>
+										<IfTrue>
+											<Statement xsi:type="Expression">
+												<ExpressionString>Pass=Pass</ExpressionString>
+											</Statement>
+										</IfTrue>
+										<IfFalse Name="Pass = false">
+											<Statement xsi:type="Expression">
+												<ExpressionString>Pass=false</ExpressionString>
+											</Statement>
+										</IfFalse>
+									</Statement>
+								</Statement>
+							</Statement>
+						</Statement>
+					</Body>
+					<LoopVariable>i</LoopVariable>
+					<Iterations>
+						<ExpressionString>1000</ExpressionString>
+					</Iterations>
+				</Statement>
+			</Body>
+		</Main>
+		<CleanUp>
+			<Body />
+		</CleanUp>
+	</Code>
+</RealTimeSequence>

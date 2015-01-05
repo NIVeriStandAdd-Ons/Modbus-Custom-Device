@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<StimulusProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<FileFormatVersion Major="2012" Minor="0" Fix="0" Build="0" />
+	<Version Major="1" Minor="0" Fix="0" Build="0" />
+	<Setup Name="Setup" />
+	<Main Name="Main">
+		<Step xsi:type="RealTimeSequenceCallStep">
+			<ParameterAssignments>
+				<ParameterAssignment Name="My_Write_Multiple_Input_Registers_A_50_40_000">
+					<Value xsi:type="SystemDefinitionChannelResource" Path="Targets/Chassis with Master and Slave instances/Custom Devices/Modbus - Slave/My_Write_Multiple_Input_Registers_A_50_40_000" />
+				</ParameterAssignment>
+				<ParameterAssignment Name="My_Write_Multiple_Input_Registers_A_50_40_001">
+					<Value xsi:type="SystemDefinitionChannelResource" Path="Targets/Chassis with Master and Slave instances/Custom Devices/Modbus - Slave/My_Write_Multiple_Input_Registers_A_50_40_001" />
+				</ParameterAssignment>
+				<ParameterAssignment Name="My_Write_Multiple_Input_Registers_A_50_40_002">
+					<Value xsi:type="SystemDefinitionChannelResource" Path="Targets/Chassis with Master and Slave instances/Custom Devices/Modbus - Slave/My_Write_Multiple_Input_Registers_A_50_40_002" />
+				</ParameterAssignment>
+				<ParameterAssignment Name="My_Read_Input_Registers_A_50_40_000">
+					<Value xsi:type="SystemDefinitionChannelResource" Path="Targets/Chassis with Master and Slave instances/Custom Devices/Modbus - Master/My_Read_Input_Registers_A_50_40_000" />
+				</ParameterAssignment>
+				<ParameterAssignment Name="My_Read_Input_Registers_A_50_40_001">
+					<Value xsi:type="SystemDefinitionChannelResource" Path="Targets/Chassis with Master and Slave instances/Custom Devices/Modbus - Slave/My_Write_Multiple_Input_Registers_A_50_40_001" />
+				</ParameterAssignment>
+				<ParameterAssignment Name="My_Read_Input_Registers_A_50_40_002">
+					<Value xsi:type="SystemDefinitionChannelResource" Path="Targets/Chassis with Master and Slave instances/Custom Devices/Modbus - Slave/My_Write_Multiple_Input_Registers_A_50_40_002" />
+				</ParameterAssignment>
+				<ParameterAssignment Name="My_Write_Multiple_Coils_A_0_30_000">
+					<Value xsi:type="SystemDefinitionChannelResource" Path="Targets/Chassis with Master and Slave instances/Custom Devices/Modbus - Slave/My_Write_Multiple_Coils_A_0_30_000" />
+				</ParameterAssignment>
+				<ParameterAssignment Name="My_Write_Multiple_Coils_A_0_30_001">
+					<Value xsi:type="SystemDefinitionChannelResource" Path="Targets/Chassis with Master and Slave instances/Custom Devices/Modbus - Slave/My_Write_Multiple_Coils_A_0_30_001" />
+				</ParameterAssignment>
+				<ParameterAssignment Name="My_Write_Multiple_Coils_A_0_30_002">
+					<Value xsi:type="SystemDefinitionChannelResource" Path="Targets/Chassis with Master and Slave instances/Custom Devices/Modbus - Slave/My_Write_Multiple_Coils_A_0_30_002" />
+				</ParameterAssignment>
+				<ParameterAssignment Name="My_Read_Coils_A_0_30_000">
+					<Value xsi:type="SystemDefinitionChannelResource" Path="Targets/Chassis with Master and Slave instances/Custom Devices/Modbus - Master/My_Read_Coils_A_0_30_000" />
+				</ParameterAssignment>
+				<ParameterAssignment Name="My_Read_Coils_A_0_30_001">
+					<Value xsi:type="SystemDefinitionChannelResource" Path="Targets/Chassis with Master and Slave instances/Custom Devices/Modbus - Master/My_Read_Coils_A_0_30_001" />
+				</ParameterAssignment>
+				<ParameterAssignment Name="My_Read_Coils_A_0_30_002">
+					<Value xsi:type="SystemDefinitionChannelResource" Path="Targets/Chassis with Master and Slave instances/Custom Devices/Modbus - Master/My_Read_Coils_A_0_30_002" />
+				</ParameterAssignment>
+				<ParameterAssignment Name="My_Discrete_Inputs_A_30_20_000">
+					<Value xsi:type="SystemDefinitionChannelResource" Path="Targets/Chassis with Master and Slave instances/Custom Devices/Modbus - Master/My_Discrete_Inputs_A_30_20_000" />
+				</ParameterAssignment>
+				<ParameterAssignment Name="My_Discrete_Inputs_A_30_20_001">
+					<Value xsi:type="SystemDefinitionChannelResource" Path="Targets/Chassis with Master and Slave instances/Custom Devices/Modbus - Master/My_Discrete_Inputs_A_30_20_001" />
+				</ParameterAssignment>
+				<ParameterAssignment Name="My_Discrete_Inputs_A_30_20_002">
+					<Value xsi:type="SystemDefinitionChannelResource" Path="Targets/Chassis with Master and Slave instances/Custom Devices/Modbus - Master/My_Discrete_Inputs_A_30_20_002" />
+				</ParameterAssignment>
+				<ParameterAssignment Name="My_Write_Multiple_Discrete_Inputs_A_30_20_000">
+					<Value xsi:type="SystemDefinitionChannelResource" Path="Targets/Chassis with Master and Slave instances/Custom Devices/Modbus - Slave/My_Write_Multiple_Discrete_Inputs_A_30_20_000" />
+				</ParameterAssignment>
+				<ParameterAssignment Name="My_Write_Multiple_Discrete_Inputs_A_30_20_001">
+					<Value xsi:type="SystemDefinitionChannelResource" Path="Targets/Chassis with Master and Slave instances/Custom Devices/Modbus - Slave/My_Write_Multiple_Discrete_Inputs_A_30_20_001" />
+				</ParameterAssignment>
+				<ParameterAssignment Name="My_Write_Multiple_Discrete_Inputs_A_30_20_002">
+					<Value xsi:type="SystemDefinitionChannelResource" Path="Targets/Chassis with Master and Slave instances/Custom Devices/Modbus - Slave/My_Write_Multiple_Discrete_Inputs_A_30_20_002" />
+				</ParameterAssignment>
+				<ParameterAssignment Name="My_Write_Multiple_Coils_A_200_30_000">
+					<Value xsi:type="SystemDefinitionChannelResource" Path="Targets/Chassis with Master and Slave instances/Custom Devices/Modbus - Master/My_Write_Multiple_Coils_A_200_30_000" />
+				</ParameterAssignment>
+				<ParameterAssignment Name="My_Write_Multiple_Coils_A_200_30_002">
+					<Value xsi:type="SystemDefinitionChannelResource" Path="Targets/Chassis with Master and Slave instances/Custom Devices/Modbus - Master/My_Write_Multiple_Coils_A_200_30_002" />
+				</ParameterAssignment>
+				<ParameterAssignment Name="My_Write_Multiple_Coils_A_200_30_001">
+					<Value xsi:type="SystemDefinitionChannelResource" Path="Targets/Chassis with Master and Slave instances/Custom Devices/Modbus - Master/My_Write_Multiple_Coils_A_200_30_001" />
+				</ParameterAssignment>
+				<ParameterAssignment Name="My_Read_Coils_A_200_30_001">
+					<Value xsi:type="SystemDefinitionChannelResource" Path="Targets/Chassis with Master and Slave instances/Custom Devices/Modbus - Slave/My_Read_Coils_A_200_30_001" />
+				</ParameterAssignment>
+				<ParameterAssignment Name="My_Read_Coils_A_200_30_000">
+					<Value xsi:type="SystemDefinitionChannelResource" Path="Targets/Chassis with Master and Slave instances/Custom Devices/Modbus - Slave/My_Read_Coils_A_200_30_000" />
+				</ParameterAssignment>
+				<ParameterAssignment Name="My_Read_Coils_A_200_30_002">
+					<Value xsi:type="SystemDefinitionChannelResource" Path="Targets/Chassis with Master and Slave instances/Custom Devices/Modbus - Slave/My_Read_Coils_A_200_30_002" />
+				</ParameterAssignment>
+			</ParameterAssignments>
+			<SequencePath>Test_Real_Time_Sequence_000.nivsseq</SequencePath>
+			<Target>Chassis with Master and Slave instances</Target>
+			<OutputEvaluation xsi:type="BooleanEvaluation">
+				<Invert>false</Invert>
+			</OutputEvaluation>
+		</Step>
+	</Main>
+	<CleanUp Name="Clean Up" />
+	<ResultsDirectory>Test Results</ResultsDirectory>
+</StimulusProfile>

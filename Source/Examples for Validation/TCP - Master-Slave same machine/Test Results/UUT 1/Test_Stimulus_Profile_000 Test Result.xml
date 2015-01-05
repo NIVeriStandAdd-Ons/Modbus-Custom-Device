@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="TRML.xsl"?>
+<TestResults xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" uuid="e82c5a92-79e3-4997-a453-ea22255d58ee" xmlns="http://www.ieee.org/ATML/2007/TestResults">
+	<Personnel>
+		<SystemOperator ID="AMER\vruault" />
+	</Personnel>
+	<References>
+		<Reference uuid="36576d6c-8419-436d-b99d-bfebdbb1d42b" name="Test_Stimulus_Profile_000">
+			<Text xmlns="http://www.ieee.org/ATML/2006/Common">D:\NI\Sales\Canada\Sales\2014\Mon Espace\Modbus Custom-Device\Source code\Examples for Validation\TCP - Master-Slave same machine\Test_Stimulus_Profile_000.nivsstimprof</Text>
+		</Reference>
+	</References>
+	<ResultSet ID="Test Result" name="D:\NI\Sales\Canada\Sales\2014\Mon Espace\Modbus Custom-Device\Source code\Examples for Validation\TCP - Master-Slave same machine\Test Results\UUT 1\Test_Stimulus_Profile_000 Test Result.xml" startDateTime="2014-08-13T14:45:00.6237127-04:00" endDateTime="2014-08-13T14:45:10.9130451-04:00">
+		<Outcome value="Failed" />
+		<Test ID="Setup" name="Setup" startDateTime="2014-08-13T14:45:00.6437367-04:00" endDateTime="2014-08-13T14:45:00.6437367-04:00">
+			<Outcome value="Passed" />
+		</Test>
+		<TestGroup ID="Main" name="Main" startDateTime="2014-08-13T14:45:00.6437367-04:00" endDateTime="2014-08-13T14:45:00.6437367-04:00">
+			<Outcome value="Failed" />
+			<Test ID="Main/Call RealTimeSequence: Test_Real_Time_Sequence_000.nivsseq" name="Test_Real_Time_Sequence_000" startDateTime="2014-08-13T14:45:00.6437367-04:00" endDateTime="2014-08-13T14:45:10.8589803-04:00">
+				<Parameters>
+					<Parameter ID="My_Write_Multiple_Input_Registers_A_50_40_000">
+						<Data>
+							<Datum xsi:type="string" xmlns="http://www.ieee.org/ATML/2006/Common">
+								<Value>Targets/Chassis with Master and Slave instances/Custom Devices/Modbus - Slave/My_Write_Multiple_Input_Registers_A_50_40_000</Value>
+							</Datum>
+						</Data>
+					</Parameter>
+					<Parameter ID="My_Write_Multiple_Input_Registers_A_50_40_001">
+						<Data>
+							<Datum xsi:type="string" xmlns="http://www.ieee.org/ATML/2006/Common">
+								<Value>Targets/Chassis with Master and Slave instances/Custom Devices/Modbus - Slave/My_Write_Multiple_Input_Registers_A_50_40_001</Value>
+							</Datum>
+						</Data>
+					</Parameter>
+					<Parameter ID="My_Write_Multiple_Input_Registers_A_50_40_002">
+						<Data>
+							<Datum xsi:type="string" xmlns="http://www.ieee.org/ATML/2006/Common">
+								<Value>Targets/Chassis with Master and Slave instances/Custom Devices/Modbus - Slave/My_Write_Multiple_Input_Registers_A_50_40_002</Value>
+							</Datum>
+						</Data>
+					</Parameter>
+					<Parameter ID="My_Read_Input_Registers_A_50_40_000">
+						<Data>
+							<Datum xsi:type="string" xmlns="http://www.ieee.org/ATML/2006/Common">
+								<Value>Targets/Chassis with Master and Slave instances/Custom Devices/Modbus - Master/My_Read_Input_Registers_A_50_40_000</Value>
+							</Datum>
+						</Data>
+					</Parameter>
+					<Parameter ID="My_Read_Input_Registers_A_50_40_001">
+						<Data>
+							<Datum xsi:type="string" xmlns="http://www.ieee.org/ATML/2006/Common">
+								<Value>Targets/Chassis with Master and Slave instances/Custom Devices/Modbus - Slave/My_Write_Multiple_Input_Registers_A_50_40_001</Value>
+							</Datum>
+						</Data>
+					</Parameter>
+					<Parameter ID="My_Read_Input_Registers_A_50_40_002">
+						<Data>
+							<Datum xsi:type="string" xmlns="http://www.ieee.org/ATML/2006/Common">
+								<Value>Targets/Chassis with Master and Slave instances/Custom Devices/Modbus - Slave/My_Write_Multiple_Input_Registers_A_50_40_002</Value>
+							</Datum>
+						</Data>
+					</Parameter>
+					<Parameter ID="My_Write_Multiple_Coils_A_0_30_000">
+						<Data>
+							<Datum xsi:type="string" xmlns="http://www.ieee.org/ATML/2006/Common">
+								<Value>Targets/Chassis with Master and Slave instances/Custom Devices/Modbus - Slave/My_Write_Multiple_Coils_A_0_30_000</Value>
+							</Datum>
+						</Data>
+					</Parameter>
+					<Parameter ID="My_Write_Multiple_Coils_A_0_30_001">
+						<Data>
+							<Datum xsi:type="string" xmlns="http://www.ieee.org/ATML/2006/Common">
+								<Value>Targets/Chassis with Master and Slave instances/Custom Devices/Modbus - Slave/My_Write_Multiple_Coils_A_0_30_001</Value>
+							</Datum>
+						</Data>
+					</Parameter>
+					<Parameter ID="My_Write_Multiple_Coils_A_0_30_002">
+						<Data>
+							<Datum xsi:type="string" xmlns="http://www.ieee.org/ATML/2006/Common">
+								<Value>Targets/Chassis with Master and Slave instances/Custom Devices/Modbus - Slave/My_Write_Multiple_Coils_A_0_30_002</Value>
+							</Datum>
+						</Data>
+					</Parameter>
+					<Parameter ID="My_Read_Coils_A_0_30_000">
+						<Data>
+							<Datum xsi:type="string" xmlns="http://www.ieee.org/ATML/2006/Common">
+								<Value>Targets/Chassis with Master and Slave instances/Custom Devices/Modbus - Master/My_Read_Coils_A_0_30_000</Value>
+							</Datum>
+						</Data>
+					</Parameter>
+					<Parameter ID="My_Read_Coils_A_0_30_001">
+						<Data>
+							<Datum xsi:type="string" xmlns="http://www.ieee.org/ATML/2006/Common">
+								<Value>Targets/Chassis with Master and Slave instances/Custom Devices/Modbus - Master/My_Read_Coils_A_0_30_001</Value>
+							</Datum>
+						</Data>
+					</Parameter>
+					<Parameter ID="My_Read_Coils_A_0_30_002">
+						<Data>
+							<Datum xsi:type="string" xmlns="http://www.ieee.org/ATML/2006/Common">
+								<Value>Targets/Chassis with Master and Slave instances/Custom Devices/Modbus - Master/My_Read_Coils_A_0_30_002</Value>
+							</Datum>
+						</Data>
+					</Parameter>
+					<Parameter ID="My_Discrete_Inputs_A_30_20_000">
+						<Data>
+							<Datum xsi:type="string" xmlns="http://www.ieee.org/ATML/2006/Common">
+								<Value>Targets/Chassis with Master and Slave instances/Custom Devices/Modbus - Master/My_Discrete_Inputs_A_30_20_000</Value>
+							</Datum>
+						</Data>
+					</Parameter>
+					<Parameter ID="My_Discrete_Inputs_A_30_20_001">
+						<Data>
+							<Datum xsi:type="string" xmlns="http://www.ieee.org/ATML/2006/Common">
+								<Value>Targets/Chassis with Master and Slave instances/Custom Devices/Modbus - Master/My_Discrete_Inputs_A_30_20_001</Value>
+							</Datum>
+						</Data>
+					</Parameter>
+					<Parameter ID="My_Discrete_Inputs_A_30_20_002">
+						<Data>
+							<Datum xsi:type="string" xmlns="http://www.ieee.org/ATML/2006/Common">
+								<Value>Targets/Chassis with Master and Slave instances/Custom Devices/Modbus - Master/My_Discrete_Inputs_A_30_20_002</Value>
+							</Datum>
+						</Data>
+					</Parameter>
+					<Parameter ID="My_Write_Multiple_Discrete_Inputs_A_30_20_000">
+						<Data>
+							<Datum xsi:type="string" xmlns="http://www.ieee.org/ATML/2006/Common">
+								<Value>Targets/Chassis with Master and Slave instances/Custom Devices/Modbus - Slave/My_Write_Multiple_Discrete_Inputs_A_30_20_000</Value>
+							</Datum>
+						</Data>
+					</Parameter>
+					<Parameter ID="My_Write_Multiple_Discrete_Inputs_A_30_20_001">
+						<Data>
+							<Datum xsi:type="string" xmlns="http://www.ieee.org/ATML/2006/Common">
+								<Value>Targets/Chassis with Master and Slave instances/Custom Devices/Modbus - Slave/My_Write_Multiple_Discrete_Inputs_A_30_20_001</Value>
+							</Datum>
+						</Data>
+					</Parameter>
+					<Parameter ID="My_Write_Multiple_Discrete_Inputs_A_30_20_002">
+						<Data>
+							<Datum xsi:type="string" xmlns="http://www.ieee.org/ATML/2006/Common">
+								<Value>Targets/Chassis with Master and Slave instances/Custom Devices/Modbus - Slave/My_Write_Multiple_Discrete_Inputs_A_30_20_002</Value>
+							</Datum>
+						</Data>
+					</Parameter>
+					<Parameter ID="My_Write_Multiple_Coils_A_200_30_000">
+						<Data>
+							<Datum xsi:type="string" xmlns="http://www.ieee.org/ATML/2006/Common">
+								<Value>Targets/Chassis with Master and Slave instances/Custom Devices/Modbus - Master/My_Write_Multiple_Coils_A_200_30_000</Value>
+							</Datum>
+						</Data>
+					</Parameter>
+					<Parameter ID="My_Write_Multiple_Coils_A_200_30_002">
+						<Data>
+							<Datum xsi:type="string" xmlns="http://www.ieee.org/ATML/2006/Common">
+								<Value>Targets/Chassis with Master and Slave instances/Custom Devices/Modbus - Master/My_Write_Multiple_Coils_A_200_30_002</Value>
+							</Datum>
+						</Data>
+					</Parameter>
+					<Parameter ID="My_Write_Multiple_Coils_A_200_30_001">
+						<Data>
+							<Datum xsi:type="string" xmlns="http://www.ieee.org/ATML/2006/Common">
+								<Value>Targets/Chassis with Master and Slave instances/Custom Devices/Modbus - Master/My_Write_Multiple_Coils_A_200_30_001</Value>
+							</Datum>
+						</Data>
+					</Parameter>
+					<Parameter ID="My_Read_Coils_A_200_30_001">
+						<Data>
+							<Datum xsi:type="string" xmlns="http://www.ieee.org/ATML/2006/Common">
+								<Value>Targets/Chassis with Master and Slave instances/Custom Devices/Modbus - Slave/My_Read_Coils_A_200_30_001</Value>
+							</Datum>
+						</Data>
+					</Parameter>
+					<Parameter ID="My_Read_Coils_A_200_30_000">
+						<Data>
+							<Datum xsi:type="string" xmlns="http://www.ieee.org/ATML/2006/Common">
+								<Value>Targets/Chassis with Master and Slave instances/Custom Devices/Modbus - Slave/My_Read_Coils_A_200_30_000</Value>
+							</Datum>
+						</Data>
+					</Parameter>
+					<Parameter ID="My_Read_Coils_A_200_30_002">
+						<Data>
+							<Datum xsi:type="string" xmlns="http://www.ieee.org/ATML/2006/Common">
+								<Value>Targets/Chassis with Master and Slave instances/Custom Devices/Modbus - Slave/My_Read_Coils_A_200_30_002</Value>
+							</Datum>
+						</Data>
+					</Parameter>
+					<Parameter ID="Main/Call RealTimeSequence: Test_Real_Time_Sequence_000.nivsseq.SequenceFile" name="Test_Real_Time_Sequence_000">
+						<Reference uuid="8b9323d2-281e-4c03-902b-848e2f31944a" name="Test_Real_Time_Sequence_000">
+							<Text xmlns="http://www.ieee.org/ATML/2006/Common">D:\NI\Sales\Canada\Sales\2014\Mon Espace\Modbus Custom-Device\Source code\Examples for Validation\TCP - Master-Slave same machine\Test_Real_Time_Sequence_000.nivsseq</Text>
+						</Reference>
+					</Parameter>
+				</Parameters>
+				<Outcome value="Failed" />
+				<TestResult ID="Pass">
+					<TestData>
+						<Datum xsi:type="boolean" value="false" xmlns="http://www.ieee.org/ATML/2006/Common" />
+					</TestData>
+					<TestLimits>
+						<Limits>
+							<Expected comparator="EQ" xmlns="http://www.ieee.org/ATML/2006/Common">
+								<Datum xsi:type="boolean" value="true" />
+							</Expected>
+						</Limits>
+					</TestLimits>
+				</TestResult>
+			</Test>
+		</TestGroup>
+		<Test ID="Clean Up" name="Clean Up" startDateTime="2014-08-13T14:45:10.9110427-04:00" endDateTime="2014-08-13T14:45:10.9110427-04:00">
+			<Outcome value="Passed" />
+		</Test>
+	</ResultSet>
+	<TestDescription>
+		<Definition version="1_0_0_0" xmlns="http://www.ieee.org/ATML/2006/Common">
+			<Identification />
+		</Definition>
+	</TestDescription>
+	<UUT UutType="software">
+		<SerialNumber xmlns="http://www.ieee.org/ATML/2006/Common">UUT 1</SerialNumber>
+	</UUT>
+</TestResults>
