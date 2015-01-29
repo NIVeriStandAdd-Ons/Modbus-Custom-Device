@@ -4,8 +4,7 @@ Modbus Custom-Device is a Custom-Device for NI-VeriStand that allows to dialogue
 
 ### LabVIEW Version ###
 
-LabVIEW 2014
-Current source code is the version 2014.1.0
+LabVIEW 2014 - Current source code is the version 2014.1.0
 
 ### Built Availability ###
 
