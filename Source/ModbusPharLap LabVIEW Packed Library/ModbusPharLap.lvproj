@@ -148,7 +148,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{4ED5D892-E009-4214-98D8-4DCD1AC52273}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/c</Property>
-				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.build" Type="Int">2</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">ModbusPharLap.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">/c/NI_AB_PROJECTNAME.lvlibp</Property>

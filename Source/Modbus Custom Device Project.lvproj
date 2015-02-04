@@ -368,8 +368,8 @@
 	</Item>
 	<Item Name="Pharlap 2" Type="RT PXI Chassis">
 		<Property Name="alias.name" Type="Str">Pharlap 2</Property>
-		<Property Name="alias.value" Type="Str">192.168.2.48</Property>
-		<Property Name="CCSymbols" Type="Str">OS,PharLap;CPU,x86;Debug_Strings,True;RT_Only,False;Modbus_Type,Master;Communication_Type,TCP;TARGET_TYPE,RT;</Property>
+		<Property Name="alias.value" Type="Str">192.168.2.70</Property>
+		<Property Name="CCSymbols" Type="Str">OS,PharLap;CPU,x86;Debug_Strings,True;RT_Only,False;Modbus_Type,Slave;Communication_Type,Serial;TARGET_TYPE,RT;</Property>
 		<Property Name="host.ResponsivenessCheckEnabled" Type="Bool">true</Property>
 		<Property Name="host.ResponsivenessCheckPingDelay" Type="UInt">5000</Property>
 		<Property Name="host.ResponsivenessCheckPingTimeout" Type="UInt">1000</Property>
