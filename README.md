@@ -4,15 +4,35 @@ Modbus Custom-Device is a Custom-Device for NI-VeriStand that allows to dialogue
 
 ### LabVIEW Version ###
 
-LabVIEW 2014 - Current source code is the version 2014.1.1
+LabVIEW 2014 - Current source code is the version 2014.1.2
+
+V2014.0.0
+[10/30/2014 - VR]
+Version Creation
+
+V2014.1.0
+[01/22/2015 - VR]
+Version Creation 
+"Write Single Holding Register" function added. The place-holder was there in RT code but not implemented.
+
+V2014.1.1
+[02/03/2015 - VR]
+Version Creation
+Some Typo mistakes fixed (for Debug Messages).
+Better Handling or error at beginning of RT execution.
+
+V2014.1.2
+[03/11/2015 - VR]
+Version Creation
+Support of "Write_Multiple_Holding_Registers" added for Master.
+Error -2206 while un-deploying fixed.
+
 
 ### Built Availability ###
 
 Only source-code is supplied, no built version
 
 ### Quality, Limitations ###
-
-Quality: this is fist public version of the Custom-Device.
 
 Limitations:
 - There is no other way than XML to specify the list of Modbus items of interest. 

@@ -16,4 +16,7 @@
 	<Item Name="Modbus RT Driver VI.vi" Type="VI" URL="../Modbus RT Driver VI.vi"/>
 	<Item Name="Modbus RT Driver VI Modbus.vi" Type="VI" URL="../Modbus RT Driver VI Modbus.vi"/>
 	<Item Name="Modbus RT Driver VI States Definition.ctl" Type="VI" URL="../Modbus RT Driver VI States Definition.ctl"/>
+	<Item Name="Modbus RT Driver - Debug Messages.vi" Type="VI" URL="../Modbus RT Driver - Debug Messages.vi"/>
+	<Item Name="Modbus Error Message Debug 1.vi" Type="VI" URL="../Modbus Error Message Debug 1.vi"/>
+	<Item Name="Modbus Error Message Debug 2.vi" Type="VI" URL="../Modbus Error Message Debug 2.vi"/>
 </Library>
