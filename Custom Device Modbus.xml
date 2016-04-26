@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomDevice xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Custom Device.xsd">
+<XSDVersion Major="2010" Minor="0" Fix="0" Build="0" />
+  <AddMenu>
+    <eng>Modbus</eng>
+    <loc>Modbus</loc>
+  </AddMenu>
+  <Version>2015.1.4</Version>
+  <Type>Asynchronous</Type>
+  <MaxOccurrence>2474</MaxOccurrence>
+  <MainPageGUID>2034df62-bfc7-4efa-9b63-5edc9e07467b</MainPageGUID>
+  <InitializationVI>
+    <Type>Action</Type>
+    <Item2Launch>
+      <Type>To Common Doc Dir</Type>
+		<Path>Custom Devices\Modbus\Modbus Configuration.llb\Modbus Initialization VI.vi</Path>
+    </Item2Launch>
+  </InitializationVI>
+  <CustomDeviceVI>
+		<SourceDistribution>
+			<Source>
+				<SupportedTarget>PharlapWindows</SupportedTarget>
+				<Source>
+					<Type>To Common Doc Dir</Type>
+					<Path>Custom Devices\Modbus\c\Modbus Engine PharlapWin.llb\Modbus RT Driver VI.vi</Path>
+				</Source>
+				<RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\Modbus\Modbus Engine PharlapWin.llb\Modbus RT Driver VI.vi</RealTimeSystemDestination>
+			</Source>
+		</SourceDistribution>
+	</CustomDeviceVI>
+ <Dependencies>
+		<Dependency>
+			<SupportedTarget>PharlapWindows</SupportedTarget>
+			<Source>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\Modbus\c\data\ModbusPharLap.lvlibp</Path>
+			</Source>
+			<RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\Modbus\data\ModbusPharLap.lvlibp</RealTimeSystemDestination>
+		</Dependency>
+</Dependencies>
+  <Pages>
+    <Page>
+      <Name>
+        <eng>Modbus</eng>
+        <loc>Modbus</loc>
+      </Name>
+      <GUID>2034df62-bfc7-4efa-9b63-5edc9e07467b</GUID>
+      <Glyph>
+			<Type>To Common Doc Dir</Type>
+			<Path>Custom Devices\Modbus\Glyphs\Network.png</Path>
+		</Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+		<Path>Custom Devices\Modbus\Modbus Configuration.llb\Modbus Main Page.vi</Path>
+      </Item2Launch>
+    </Page>
+	<Page>
+      <Name>
+        <eng>Status</eng>
+        <loc>Status</loc>
+      </Name>
+	  <DisallowRenaming>true</DisallowRenaming>
+	  <DeleteProtection>true</DeleteProtection>
+      <GUID>d30ff444-76ba-43cf-b605-e86ade14a5f0</GUID>
+      <Glyph>
+			<Type>To Common Doc Dir</Type>
+			<Path>Custom Devices\Modbus\Glyphs\status2.png</Path>
+		</Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+		<Path>Custom Devices\Modbus\Modbus Configuration.llb\Status.vi</Path>
+      </Item2Launch>
+    </Page>
+
+	<Page>
+      <Name>
+        <eng>Status Section</eng>
+        <loc>Status Section</loc>
+      </Name>
+	  <DisallowRenaming>true</DisallowRenaming>
+	  <DeleteProtection>true</DeleteProtection>
+      <GUID>6dec2bcb-d0f0-4879-8875-bd03842ffe6c</GUID>
+      <Glyph>
+			<Type>To Application Data Dir</Type>
+			<Path>System Explorer\Glyphs\default fpga channel.png</Path>
+		</Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+		<Path>Custom Devices\Modbus\Modbus Configuration.llb\Status Section Page.vi</Path>
+      </Item2Launch>
+    </Page>
+	
+	<Page>
+			<Name>
+				<eng>Channel (delete protected)</eng>
+				<loc>Channel (delete protected)</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<GUID>5f26147a-74dd-4215-ad1d-c30aa09c573d</GUID>
+			<Glyph>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\Modbus\Glyphs\Modbus_Channel.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>Absolute</Type>
+				<Path>System UI VIs\Custom Device\Custom Device Channel.vi</Path>
+			</Item2Launch>
+			<RunTimeMenu />
+			<Help>
+				<Item2Launch>
+					<Type>To Base</Type>
+					<Path>Veristand.chm\Custom_Devices_SE.html</Path>
+				</Item2Launch>
+				<FileType>chm</FileType>
+			</Help>
+		</Page>
+  </Pages>
+  <CustomXML>
+    <Dummy></Dummy>
+  </CustomXML>
+</CustomDevice>

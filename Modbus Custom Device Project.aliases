@@ -1,0 +1,9 @@
+[My Computer]
+My Computer = "192.168.2.48"
+
+[Pharlap 2]
+Pharlap 2 = "192.168.2.70"
+
+[VxWorks]
+VxWorks = "0.0.0.0"
+
