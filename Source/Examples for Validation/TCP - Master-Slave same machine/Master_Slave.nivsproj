@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="System definition.xsd">
 	<MD5Checksum />
-	<Version Major="2012" Minor="0" Fix="0" Build="1" />
+	<Version Major="2020" Minor="0" Fix="0" Build="0" />
 	<Content>Definition</Content>
-	<Root Name="Master_Slave" TypeGUID="d9313aae-3554-45e5-93f3-86454275d4f2">
+	<Root Name="Master_Slave" TypeGUID="d9313aae-3554-45e5-93f3-86454275d4f2" Identifier="fd7f0719-6b57-463a-a2f4-19df281f8095">
 		<Description>This project has 2 instances (one instance of Master and one instance of slave) of Modbus Custom-Device on a single RT target. Elements between each instance match (type, addresses, quantity).</Description>
 		<Properties>
 			<Property Name="Name">
@@ -20,11 +20,11 @@
 			</Property>
 		</Properties>
 		<Errors />
-		<Section Name="System Definition File" TypeGUID="b9227a5b-2770-4a62-8621-ac414d4124fb">
+		<Section Name="System Definition File" TypeGUID="b9227a5b-2770-4a62-8621-ac414d4124fb" Identifier="25c89f18-9382-482e-b7c9-dc06118a0176">
 			<Description />
 			<Properties />
 			<Errors />
-			<Section Name="Master_Slave.nivssdf" TypeGUID="3a41ca74-36ec-4aff-9219-9d05c8f91208">
+			<Section Name="Master_Slave.nivssdf" TypeGUID="3a41ca74-36ec-4aff-9219-9d05c8f91208" Identifier="016220d8-642c-49e4-b0ca-c1f6713b7759">
 				<Description />
 				<Properties>
 					<Property Name="Path">
@@ -39,7 +39,7 @@
 				<Errors />
 			</Section>
 		</Section>
-		<Section Name="Workspace" TypeGUID="bc98486f-7b49-4949-9504-949cbe254c85">
+		<Section Name="User Interface" TypeGUID="bc98486f-7b49-4949-9504-949cbe254c85" Identifier="2691f69e-52f5-4af8-bbfd-b4fce1ea52ba">
 			<Description />
 			<Properties>
 				<Property Name="User Accounts">
@@ -62,7 +62,7 @@
 				</Property>
 			</Properties>
 			<Errors />
-			<Section Name="Master_Slave.nivsscreen" TypeGUID="cdfadfe0-c84a-4268-a677-4f2f3525465e">
+			<Section Name="Master_Slave.nivsscreen" TypeGUID="cdfadfe0-c84a-4268-a677-4f2f3525465e" Identifier="c1949548-8ec8-41a7-93a5-788d48213f9a">
 				<Description />
 				<Properties>
 					<Property Name="Path">
@@ -77,11 +77,11 @@
 				<Errors />
 			</Section>
 		</Section>
-		<Section Name="Services" TypeGUID="736a951c-d9c8-457f-96a9-cd0ef16011a5">
+		<Section Name="Services" TypeGUID="736a951c-d9c8-457f-96a9-cd0ef16011a5" Identifier="f1cfa044-dd7c-4ab8-97ae-795e7c59cb52">
 			<Description />
 			<Properties />
 			<Errors />
-			<Section Name="Model Parameter Manager" TypeGUID="cc686646-9933-410d-a553-6308e6e06897">
+			<Section Name="Model Parameter Manager" TypeGUID="cc686646-9933-410d-a553-6308e6e06897" Identifier="0f616adc-1cf2-4f35-bb2c-6488b13478d4">
 				<Description />
 				<Properties>
 					<Property Name="Function">
@@ -105,16 +105,16 @@
 				<Errors />
 			</Section>
 		</Section>
-		<Section Name="Profiles" TypeGUID="c3bd79ec-3336-4b06-868e-3217c640edd5">
+		<Section Name="Profiles" TypeGUID="c3bd79ec-3336-4b06-868e-3217c640edd5" Identifier="8a478a5d-b1fd-4a48-9100-7f6d0de5896f">
 			<Description />
 			<Properties />
 			<Errors />
 		</Section>
-		<Section Name="Calibration" TypeGUID="38433223-24A0-4b32-9339-370EC5AA31B4">
+		<Section Name="Calibration" TypeGUID="38433223-24A0-4b32-9339-370EC5AA31B4" Identifier="093a7ffa-d498-434c-94f0-f617b8140a05">
 			<Description />
 			<Properties />
 			<Errors />
-			<Section Name="Master_Slave.nivscf" TypeGUID="1E715E4F-5EB7-4d75-99E5-F7A3D858E07E">
+			<Section Name="Master_Slave.nivscf" TypeGUID="1E715E4F-5EB7-4d75-99E5-F7A3D858E07E" Identifier="9ea35dae-0e68-4d8b-9870-8152ec093c14">
 				<Description />
 				<Properties>
 					<Property Name="Path">
@@ -129,11 +129,11 @@
 				<Errors />
 			</Section>
 		</Section>
-		<Section Name="Alarm Responses" TypeGUID="3b1ab560-d77a-41f2-adb4-0c0250b010b3">
+		<Section Name="Alarm Responses" TypeGUID="3b1ab560-d77a-41f2-adb4-0c0250b010b3" Identifier="a4802017-5d12-4481-a0a0-dccd6f52e77f">
 			<Description />
 			<Properties />
 			<Errors />
-			<Section Name="Alarm Response" TypeGUID="99267DF5-8C59-4AAC-B020-7591F4886206">
+			<Section Name="Alarm Response" TypeGUID="99267DF5-8C59-4AAC-B020-7591F4886206" Identifier="6fbe1af1-b084-4d2e-9007-8d601dc7f294">
 				<Description />
 				<Properties>
 					<Property Name="Show Dialog">
@@ -169,56 +169,47 @@
 				<Errors />
 			</Section>
 		</Section>
-		<Section Name="Custom Files" TypeGUID="9e2cb626-3583-4345-aeb6-b9fead6ec565">
+		<Section Name="Custom Files" TypeGUID="9e2cb626-3583-4345-aeb6-b9fead6ec565" Identifier="4754b7d7-dfbb-4489-bf86-af4e9ea2fc5f">
 			<Description />
 			<Properties />
 			<Errors />
 		</Section>
-		<Section Name="Dependencies" TypeGUID="e5b093fa-a709-4df2-807e-a403422ba675">
+		<Section Name="Dependencies" TypeGUID="e5b093fa-a709-4df2-807e-a403422ba675" Identifier="c9f8c271-317c-4267-a469-17dfb8cc1acb">
 			<Description />
 			<Properties />
 			<Errors />
-			<Section Name="Master_Slave.nivssdf (1)" TypeGUID="369b9797-43bd-4cdf-8352-81032feed666">
+			<Section Name="Master_Slave.nivssdf" TypeGUID="369b9797-43bd-4cdf-8352-81032feed666" Identifier="f277062f-7610-4291-944f-91ebf66bd40d">
 				<Description />
 				<Properties>
 					<Property Name="Path">
-						<String>C:\Users\vruault.AMER\Desktop\Source code\Examples for Validation\TCP - Master-Slave same machine\Master_Slave.nivssdf</String>
+						<String>C:\Users\NPowley\OneDrive - NI\Documents\GitHub\Modbus-Custom-Device\Source\Examples for Validation\TCP - Master-Slave same machine\Master_Slave.nivssdf</String>
 					</Property>
 				</Properties>
 				<Errors />
 			</Section>
-			<Section Name="Master_Slave.nivsscreen (1)" TypeGUID="369b9797-43bd-4cdf-8352-81032feed666">
+			<Section Name="Master_Slave.nivsscreen" TypeGUID="369b9797-43bd-4cdf-8352-81032feed666" Identifier="a8749e4d-970b-4cb7-8011-c289a175ca9d">
 				<Description />
 				<Properties>
 					<Property Name="Path">
-						<String>C:\Users\vruault.AMER\Desktop\Source code\Examples for Validation\TCP - Master-Slave same machine\Master_Slave.nivsscreen</String>
+						<String>C:\Users\NPowley\OneDrive - NI\Documents\GitHub\Modbus-Custom-Device\Source\Examples for Validation\TCP - Master-Slave same machine\Master_Slave.nivsscreen</String>
 					</Property>
 				</Properties>
 				<Errors />
 			</Section>
-			<Section Name="Master_Slave.nivscf (1)" TypeGUID="369b9797-43bd-4cdf-8352-81032feed666">
+			<Section Name="Master_Slave.nivscf" TypeGUID="369b9797-43bd-4cdf-8352-81032feed666" Identifier="7eddb6b8-103a-432e-b9c6-f4c131e3dc1d">
 				<Description />
 				<Properties>
 					<Property Name="Path">
-						<String>C:\Users\vruault.AMER\Desktop\Source code\Examples for Validation\TCP - Master-Slave same machine\Master_Slave.nivscf</String>
+						<String>C:\Users\NPowley\OneDrive - NI\Documents\GitHub\Modbus-Custom-Device\Source\Examples for Validation\TCP - Master-Slave same machine\Master_Slave.nivscf</String>
 					</Property>
 				</Properties>
 				<Errors />
 			</Section>
-			<Section Name="Modbus Engine PharlapWin.llb (1)" TypeGUID="369b9797-43bd-4cdf-8352-81032feed666">
+			<Section Name="Modbus Engine PharlapWin.llb" TypeGUID="369b9797-43bd-4cdf-8352-81032feed666" Identifier="583de338-3f73-4a5a-a4a2-53dd796d6dd5">
 				<Description />
 				<Properties>
 					<Property Name="Path">
-						<String>C:\Users\Public\Documents\National Instruments\NI VeriStand 2014\Custom Devices\Modbus\c\Modbus Engine PharlapWin.llb</String>
-					</Property>
-				</Properties>
-				<Errors />
-			</Section>
-			<Section Name="TCP-Server Engine.llb (1)" TypeGUID="369b9797-43bd-4cdf-8352-81032feed666">
-				<Description />
-				<Properties>
-					<Property Name="Path">
-						<String>C:\Users\Public\Documents\National Instruments\NI VeriStand 2014\Custom Devices\TCP-Server\TCP-Server Engine.llb</String>
+						<String>C:\Users\Public\Documents\National Instruments\NI VeriStand 2021\Custom Devices\Modbus\c\Modbus Engine PharlapWin.llb</String>
 					</Property>
 				</Properties>
 				<Errors />
