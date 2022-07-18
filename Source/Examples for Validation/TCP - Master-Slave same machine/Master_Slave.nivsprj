@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="2F1FDF5863B6EAE03617FB357BC518AB533DB811ED1FF92C23E45C7E22BD2105264BDEE9D8915E73290CC4B08C094481F7D08D373EB5326331F450ED0AEBF3AB" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="9.3.0.49613" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="9.3.0.49613" FeatureSetName="VeriStand Core Components" Name="http://www.ni.com/VeriStand" OldestCompatibleVersion="9.0.0.49152" Version="9.0.0.49152" />
+		<ApplicationVersionInfo Build="9.0.0.49613" Name="VeriStand" Version="9.3.0.49613" />
+	</SourceModelFeatureSet>
+	<Project p2:ProjectVersion="1.0.0.0" xmlns:p2="http://www.ni.com/VeriStand" xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="8fca11584e9e4f83940328ff0aa45f8d" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<EmbeddedDefinitionReference Id="561ff4daae574e80bc41a3845be8401f" ModelDefinitionType="NationalInstruments.ProjectExplorer.Modeling.ProjectDataManager" Name="ProjectExplorer">
+			<ProjectExplorer />
+		</EmbeddedDefinitionReference>
+		<NameScopingEnvoy Id="b118e69046914e4db60e1069c573d223" ModelDefinitionType="DefaultTarget" Name="DefaultTarget">
+			<DefaultTarget />
+			<FileReference Bindings=".nivsproj" Id="f3fe215d989f4d86b6fd478be908f40d" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="Master_Slave.nivsproj" StoragePath="Master_Slave.nivsproj" />
+			<SourceFileReference Bindings="EnvoyManager" Id="37906549185f47f8912124fb886b7efc" ModelDefinitionType="{http://www.ni.com/VeriStand}SystemDefinition" Name="Master_Slave.nivssdf" StoragePath="Master_Slave.nivssdf" />
+			<FileReference Bindings=".nivsscreen" Id="5434b2f0dac34f9e97a7f600114dcc55" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="Master_Slave.nivsscreen" StoragePath="Master_Slave.nivsscreen" />
+			<FileReference Bindings=".nivscf" Id="7f501b852ce4433486811f349f3a86c0" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="Master_Slave.nivscf" StoragePath="Master_Slave.nivscf" />
+			<EmbeddedDefinitionReference Id="4dbe247046324896b8b92447a28125d2" ModelDefinitionType="SdfFilePath" Name="SdfPath" Reparentable="False">
+				<p2:SdfFilePath SdfPath="Master_Slave.nivssdf" />
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="98b0daf0148c46cda4cce70c4b4b61d1" ModelDefinitionType="GatewayDefinition" Name="Gateway" Reparentable="False">
+				<p2:GatewayDefinition />
+			</EmbeddedDefinitionReference>
+		</NameScopingEnvoy>
+	</Project>
+	<ProjectInformation xmlns="http://www.ni.com/PlatformFramework">
+		<p.Description>This project has 2 instances (one instance of Master and one instance of slave) of Modbus Custom-Device on a single RT target. Elements between each instance match (type, addresses, quantity).</p.Description>
+	</ProjectInformation>
+</SourceFile>

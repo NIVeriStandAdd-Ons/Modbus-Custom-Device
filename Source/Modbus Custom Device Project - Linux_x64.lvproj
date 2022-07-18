@@ -282,18 +282,16 @@
 			</Item>
 		</Item>
 	</Item>
-	<Item Name="Linux x64 RT target" Type="RT CompactRIO">
-		<Property Name="alias.name" Type="Str">Linux x64 RT target</Property>
-		<Property Name="alias.value" Type="Str">0.0.0.0</Property>
-		<Property Name="CCSymbols" Type="Str">TARGET_TYPE,RT;OS,Linux;CPU,x64;DeviceCode,77DB;</Property>
-		<Property Name="crio.ControllerPID" Type="Str">77DB</Property>
-		<Property Name="host.ResponsivenessCheckEnabled" Type="Bool">true</Property>
-		<Property Name="host.ResponsivenessCheckPingDelay" Type="UInt">5000</Property>
-		<Property Name="host.ResponsivenessCheckPingTimeout" Type="UInt">1000</Property>
-		<Property Name="host.TargetCPUID" Type="UInt">9</Property>
-		<Property Name="host.TargetOSID" Type="UInt">19</Property>
-		<Property Name="host.TargetUIEnabled" Type="Bool">false</Property>
-		<Property Name="target.cleanupVisa" Type="Bool">false</Property>
+	<Item Name="RT PXI Target - Linux x64" Type="RT PXI Chassis">
+        <Property Name="alias.name" Type="Str">RT PXI Target</Property>
+        <Property Name="alias.value" Type="Str">0.0.0.0</Property>
+        <Property Name="CCSymbols" Type="Str">TARGET_TYPE,RT;OS,Linux;CPU,x64;</Property>                                                         
+        <Property Name="host.ResponsivenessCheckEnabled" Type="Bool">true</Property>
+        <Property Name="host.ResponsivenessCheckPingDelay" Type="UInt">5000</Property>
+        <Property Name="host.ResponsivenessCheckPingTimeout" Type="UInt">1000</Property>
+        <Property Name="host.TargetCPUID" Type="UInt">9</Property>
+        <Property Name="host.TargetOSID" Type="UInt">19</Property>                           
+        <Property Name="target.cleanupVisa" Type="Bool">false</Property>
 		<Property Name="target.FPProtocolGlobals_ControlTimeLimit" Type="Int">300</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Port" Type="Int">80</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Timeout" Type="Int">60</Property>
